@@ -9,13 +9,13 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/en/"
+      hreflang="zh-tw"
+      href="https://localhost:1313/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
-      href="https://localhost:1313/"
+      hreflang="en"
+      href="https://localhost:1313/en/"
     />
     <xhtml:link
       rel="alternate"
@@ -77,13 +77,13 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/en/categories/"
+      hreflang="zh-tw"
+      href="https://localhost:1313/categories/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
-      href="https://localhost:1313/categories/"
+      hreflang="en"
+      href="https://localhost:1313/en/categories/"
     />
     <xhtml:link
       rel="alternate"
@@ -177,13 +177,13 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/en/tags/"
+      hreflang="zh-tw"
+      href="https://localhost:1313/tags/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
-      href="https://localhost:1313/tags/"
+      hreflang="en"
+      href="https://localhost:1313/en/tags/"
     />
     <xhtml:link
       rel="alternate"
@@ -224,13 +224,13 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/en/authors/"
+      hreflang="zh-tw"
+      href="https://localhost:1313/authors/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
-      href="https://localhost:1313/authors/"
+      hreflang="en"
+      href="https://localhost:1313/en/authors/"
     />
     <xhtml:link
       rel="alternate"
@@ -456,13 +456,13 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/en/series/"
+      hreflang="zh-tw"
+      href="https://localhost:1313/series/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
-      href="https://localhost:1313/series/"
+      hreflang="en"
+      href="https://localhost:1313/en/series/"
     />
     <xhtml:link
       rel="alternate"

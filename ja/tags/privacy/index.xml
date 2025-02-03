@@ -6,16 +6,26 @@
     <description>Recent content in Privacy on THITAart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <copyright>Thita シタ © 2024 </copyright>
+    <copyright>Thita シタ © 2025 </copyright>
     <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://localhost:1313/ja/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Partials</title>
       <link>https://localhost:1313/ja/docs/partials/</link>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/ja/docs/partials/</guid>
-      <description>Analytics # Blowfish provides built-in support for Fathom Analytics and Google Analytics. Fathom is a paid alternative to Google Analytics that respects user privacy.
-Fathom Analytics # To enable Fathom Analytics support, simply provide your Fathom site code in the config/_default/params.</description>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Analytics 
+    &lt;div id=&#34;analytics&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#analytics&#34; aria-label=&#34;アンカー&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Blowfish provides built-in support for Fathom Analytics and Google Analytics. Fathom is a paid alternative to Google Analytics that respects user privacy.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/partials/featured.svg" />
     </item>
     

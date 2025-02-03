@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja" dir="ltr" class="scroll-smooth" data-default-appearance="light"
+<html lang="ja" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
   data-auto-appearance="false"><head>
   <meta charset="utf-8" />
   
@@ -26,8 +26,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.586f74a54c9229f6b5d27ee8ef9604e882158391ca83d5e823b47ef3e3d489767da47582ee9a6f57de35e0247ca19de0c161b85e443ea25fb8e1894f035344a0.css"
-    integrity="sha512-WG90pUySKfa10n7o75YE6IIVg5HKg9XoI7R&#43;8&#43;PUiXZ9pHWC7ppvV9414CR8oZ3gwWG4XkQ&#43;ol&#43;44YlPA1NEoA==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.0a5c179d65d8798755c4c2ed8354c5011ca0cbbf83044f1481706ae96b2884896e8aeff6828e2bae188ffbdb7555e9b4edd64bdff3174732b2a86228e2c4aa61.css"
+    integrity="sha512-ClwXnWXYeYdVxMLtg1TFARygy7&#43;DBE8UgXBq6WsohIluiu/2go4rrhiP&#43;9t1Vem07dZL3/MXRzKyqGIo4sSqYQ==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -44,11 +44,14 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.d6c35110b5d7df8014403fbb81cd21a9d89daf9eb586c936e585e9d04adc204dce554aa737f81e8c902b9dea9e67bd63a977b77dedefb8a39430581ebc519207.js"
-    integrity="sha512-1sNRELXX34AUQD&#43;7gc0hqdidr561hsk25YXp0ErcIE3OVUqnN/gejJArneqeZ71jqXe3fe3vuKOUMFgevFGSBw==" data-copy="" data-copied=""></script>
   
   
-  <script src="/js/zoom.min.js"></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.a2d78d78672e549fbfc972ece871725b5478ba0b65708dda20cb97ab80a865eae6d247e1b05a4aec6ebbf78647ec3233bad8b2609ed98eee53cd58aa17128bc7.js"
+    integrity="sha512-oteNeGcuVJ&#43;/yXLs6HFyW1R4ugtlcI3aIMuXq4CoZerm0kfhsFpK7G6794ZH7DIzutiyYJ7Zju5TzViqFxKLxw==" data-copy="" data-copied=""></script>
+  
+  
+  
+  <script src="/lib/zoom/zoom.min.37d2094687372da3f7343a221a470f6b8806f7891aa46a5a03966af7f0ebd38b9fe536cb154e6ad28f006d184b294525a7c4054b6bbb4be62d8b453b42db99bd.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S&#43;Yti0U7QtuZvQ=="></script>
   
   
   
@@ -56,6 +59,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest" />
+  
   
   
   
@@ -85,9 +89,11 @@
       <meta property="og:see_also" content="https://localhost:1313/ja/docs/homepage-layout/">
       <meta property="og:see_also" content="https://localhost:1313/ja/docs/front-matter/">
 
+  
   <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://localhost:1313/docs/shortcodes/featured.svg"><meta name="twitter:title" content="Shortcodes">
-<meta name="twitter:description" content="All the shortcodes available in Blowfish.">
+  <meta name="twitter:image" content="https://localhost:1313/docs/shortcodes/featured.svg">
+  <meta name="twitter:title" content="Shortcodes">
+  <meta name="twitter:description" content="All the shortcodes available in Blowfish.">
 
   
   <script type="application/ld+json">
@@ -98,7 +104,7 @@
     "name": "Shortcodes",
     "headline": "Shortcodes",
     "description": "All the shortcodes available in Blowfish.",
-    "abstract": "In addition to all the default Hugo shortcodes, Blowfish adds a few extras for additional functionality.\nAlert # alert outputs its contents as a stylised message box within your article. It\u0026rsquo;s useful for drawing attention to important information that you don\u0026rsquo;t want the reader to miss.",
+    "abstract": "\u003cp\u003eIn addition to all the \u003ca href=\u0022https:\/\/gohugo.io\/content-management\/shortcodes\/\u0022 target=\u0022_blank\u0022\u003edefault Hugo shortcodes\u003c\/a\u003e, Blowfish adds a few extras for additional functionality.\u003c\/p\u003e\n\n\n\u003ch2 class=\u0022relative group\u0022\u003eAlert \n    \u003cdiv id=\u0022alert\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022\n            style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#alert\u0022 aria-label=\u0022アンカー\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e        \n    \n\u003c\/h2\u003e\n\u003cp\u003e\u003ccode\u003ealert\u003c\/code\u003e outputs its contents as a stylised message box within your article. It\u0026rsquo;s useful for drawing attention to important information that you don\u0026rsquo;t want the reader to miss.\u003c\/p\u003e",
     "inLanguage": "ja",
     "url" : "https:\/\/localhost:1313\/ja\/docs\/shortcodes\/",
     "author" : {
@@ -114,7 +120,7 @@
     "keywords": ["shortcodes","mermaid","icon","lead","docs"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "2936"
+    "wordCount": "2933"
   }]
   </script>
 
@@ -134,7 +140,7 @@
   
   
 
-<script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
+<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
 
 
 
@@ -145,8 +151,8 @@
   <script
     defer
     type="text/javascript"
-    src="/js/mermaid.bundle.79fb2b63195059fdbfc56baebc147a42a4f1a8742d85e355e37f284c17866228b178f4bfc234a5ff7b807cca0907a189a1d6309159e50c112a9e82cabfc4c1f8.js"
-    integrity="sha512-efsrYxlQWf2/xWuuvBR6QqTxqHQtheNV438oTBeGYiixePS/wjSl/3uAfMoJB6GJodYwkVnlDBEqnoLKv8TB&#43;A=="
+    src="/js/mermaid.bundle.e1dc118d1d5c060fb5035f6ed11303122f4ad26ae607992d7c428d00430883ca9f26a9f029180a9dd9c7c3774502a38f34fac2ad91dd4e8eb2a739f068841356.js"
+    integrity="sha512-4dwRjR1cBg&#43;1A19u0RMDEi9K0mrmB5ktfEKNAEMIg8qfJqnwKRgKndnHw3dFAqOPNPrCrZHdTo6ypznwaIQTVg=="
   ></script>
 
 
@@ -156,21 +162,21 @@
 
 
 
-<script defer type="text/javascript" src="/js/chart.bundle.e504214c2b765ea06f4ed1728fbfaff95c45efb974d2a21b6977ad719ce3f6e6eef7315dedbeb7412b3c270d253524ea1861c80eb8f59c0196613569d107b9d9.js"
-  integrity="sha512-5QQhTCt2XqBvTtFyj7&#43;v&#43;VxF77l00qIbaXetcZzj9ubu9zFd7b63QSs8Jw0lNSTqGGHIDrj1nAGWYTVp0Qe52Q=="></script>
+<script defer type="text/javascript" src="/js/chart.bundle.dc3e5d888637950bf9913d69bc1692fa8363f5a8d3053e75040171e4f81c02cc00663bfbf543aba8e209033b802f0bae3c3bded151ed8cda309c00a4be1e4357.js"
+  integrity="sha512-3D5diIY3lQv5kT1pvBaS&#43;oNj9ajTBT51BAFx5PgcAswAZjv79UOrqOIJAzuALwuuPDve0VHtjNownACkvh5DVw=="></script>
 
 
 
 
 
 
-<link type="text/css" rel="stylesheet" href="/lib/katex/katex.min.af6f85907cdfd6ed3e4906d93a8233d91c5638859f744cd1b98c9b1a3ccaab5f231bdcda49f132f6cdfe8cca86ff33ed468affab8a9a502610a664a34f0f0cfa.css" integrity="sha512-r2&#43;FkHzf1u0&#43;SQbZOoIz2RxWOIWfdEzRuYybGjzKq18jG9zaSfEy9s3&#43;jMqG/zPtRor/q4qaUCYQpmSjTw8M&#43;g==" />
+<link type="text/css" rel="stylesheet" href="/lib/katex/katex.min.8fee1bb91734542a6701c61b7be516ff2eb2df248bf4e4591aacc8f4e9df40c7ca9e9c0b3f657b166f5f13e69a8fb50a139b3babcef20aeeea18f0fbcd4169fb.css" integrity="sha512-j&#43;4buRc0VCpnAcYbe&#43;UW/y6y3ySL9ORZGqzI9OnfQMfKnpwLP2V7Fm9fE&#43;aaj7UKE5s7q87yCu7qGPD7zUFp&#43;w==" />
 
 
-<script defer src="/lib/katex/katex.min.20da6cf7343619410c0900fbc626506c65159ea9f312f9729d5cba7aa713707378f9a4222e8f7fb9a42a7240e9749f199b7334401b3e3e4b60e29cf490492552.js" integrity="sha512-INps9zQ2GUEMCQD7xiZQbGUVnqnzEvlynVy6eqcTcHN4&#43;aQiLo9/uaQqckDpdJ8Zm3M0QBs&#43;Pktg4pz0kEklUg=="></script>
+<script defer src="/lib/katex/katex.min.8c68eaeb75cfdcfac071717a969e1b9d9230ad52c6a2ac21ff846eaf6a258364cbb79e5e3552e32c280faeb4f4eda4d7c5bd1492e30a961c737e1e5305300281.js" integrity="sha512-jGjq63XP3PrAcXF6lp4bnZIwrVLGoqwh/4Rur2olg2TLt55eNVLjLCgPrrT07aTXxb0UkuMKlhxzfh5TBTACgQ=="></script>
 
 
-<script defer src="/lib/katex/auto-render.min.6095714e3aadb63b14ddc4af69346ab12974c1b460654345f8d1860a0b68fcc51b22f68b757433193090bb80afc8965b65cb607e5541d0f5f0f4b2e64d69b9ff.js" integrity="sha512-YJVxTjqttjsU3cSvaTRqsSl0wbRgZUNF&#43;NGGCgto/MUbIvaLdXQzGTCQu4CvyJZbZctgflVB0PXw9LLmTWm5/w=="
+<script defer src="/lib/katex/auto-render.min.e9b2833d28623d18c071d78ef13e9c79d695122d296af3dbcee7bf1bf6518b0565bab59939267fbc8f5faf696193c20f5caef3e7501969cfb306f6738032730d.js" integrity="sha512-6bKDPShiPRjAcdeO8T6cedaVEi0pavPbzue/G/ZRiwVlurWZOSZ/vI9fr2lhk8IPXK7z51AZac&#43;zBvZzgDJzDQ=="
   onload="renderMathInElement(document.body);"></script>
 
 
@@ -299,7 +305,7 @@
 
 
 
-<script defer src="/lib/typeit/typeit.umd.js" integrity=""></script>
+<script defer src="/lib/typeit/typeit.umd.57f9bc6e047efc875cb4f2e9ca74c802de33638d2c3aff6d9b7eb3c7588c24649b6c3e51cd45f49c0ed0cf72aedbd694bf2d35f358a34076d63f9febabc0bd6f.js" integrity="sha512-V/m8bgR&#43;/IdctPLpynTIAt4zY40sOv9tm36zx1iMJGSbbD5RzUX0nA7Qz3Ku29aUvy0181ijQHbWP5/rq8C9bw=="></script>
 
 
 
@@ -323,7 +329,8 @@
 
 
 <link rel="stylesheet" href="/lib/lite-youtube-embed/lite-yt-embed.css" integrity=""/>
-<script src="/lib/lite-youtube-embed/lite-yt-embed.js" integrity=""></script>
+<script src="/lib/lite-youtube-embed/lite-yt-embed.58a8a22aed9d1cd05780869df4b0d87972fcd144a9eaff8f9a1453e58e6521c5a89ccd80bdb9f48e25ae5ee87b98bd9de51b14dd9988c60e4c89630433292084.js" integrity="sha512-WKiiKu2dHNBXgIad9LDYeXL80USp6v&#43;PmhRT5Y5lIcWonM2Avbn0jiWuXuh7mL2d5RsU3ZmIxg5MiWMEMykghA=="></script>
+
 
   
   
@@ -336,6 +343,7 @@
 
   gtag('config', 'G-PEDMYR1V0K');
 </script>
+
 
 
   
@@ -368,7 +376,7 @@
   
 </head>
 <body
-  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
   <div id="the-top" class="absolute flex self-center">
     <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
       href="#main-content"><span
@@ -381,7 +389,7 @@
   <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
-    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
     
     
     
@@ -389,8 +397,10 @@
         <a href="/ja/" class="flex">
             <span class="sr-only">THITAart</span>
 
+            
             <img src="/img/THITAart_logo_transparent.png" width="1000" height="1000"
                 class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="THITAart" />
+            
 
         </a>
     </div>
@@ -403,27 +413,29 @@
             
 
         </nav>
-        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
+        <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
 
             
             
             
   <a href="/ja/docs/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-base font-medium" title="">
+    <p class="text-base font-medium" title="資料">
         資料
     </p>
 </a>
+
 
 
             
             
   <a href="/ja/docs/shortcodes/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-base font-medium" title="">
+    <p class="text-base font-medium" title="Shortcodes">
         ショートコード
     </p>
 </a>
+
 
 
             
@@ -462,21 +474,21 @@
         
         <a href="/ja/samples/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
           
-          <p class="text-sm font-sm" title="">
+          <p class="text-sm font-sm" title="サンプル">
             サンプル
           </p>
         </a>
         
         <a href="/ja/examples/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
           
-          <p class="text-sm font-sm" title="">
+          <p class="text-sm font-sm" title="ショーケース">
             ショーケース
           </p>
         </a>
         
         <a href="/ja/guides/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
           
-          <p class="text-sm font-sm" title="">
+          <p class="text-sm font-sm" title="レシピ">
             レシピ
           </p>
         </a>
@@ -492,10 +504,11 @@
             
   <a href="/ja/users/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-base font-medium" title="">
+    <p class="text-base font-medium" title="ユーザー">
         ユーザー
     </p>
 </a>
+
 
 
             
@@ -506,6 +519,7 @@
         グッズ
     </p>
 </a>
+
 
 
             
@@ -526,6 +540,7 @@
         
     </p>
 </a>
+
 
 
             
@@ -549,13 +564,14 @@
 </a>
 
 
+
             
             
 
             
 <div>
   <div class="cursor-pointer flex items-center nested-menu">
-    <span class="mr-1">
+    <span class="ltr:mr-1 rtl:ml-1">
       
 
   <span class="relative block icon">
@@ -573,7 +589,7 @@
         
         <a href="/docs/shortcodes/" class="flex items-center">
           <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="Shortcodes">
-            繁體中文
+            中文-繁
           </p>
         </a>
         
@@ -585,7 +601,7 @@
         
         <a href="/zh-cn/docs/shortcodes/" class="flex items-center">
           <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="简码">
-            简体中文
+            中文-简
           </p>
         </a>
         
@@ -614,7 +630,7 @@
             
             
             <div
-                class="ltr:mr-14 rtl:ml-14 flex items-center">
+                class=" flex items-center">
                 <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
                     <div class="flex items-center justify-center dark:hidden">
                         
@@ -641,14 +657,14 @@
             
 
         </nav>
-        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
+        <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
 
             <span></span>
 
             
 <div>
   <div class="cursor-pointer flex items-center nested-menu">
-    <span class="mr-1">
+    <span class="ltr:mr-1 rtl:ml-1">
       
 
   <span class="relative block icon">
@@ -666,7 +682,7 @@
         
         <a href="/docs/shortcodes/" class="flex items-center">
           <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="Shortcodes">
-            繁體中文
+            中文-繁
           </p>
         </a>
         
@@ -678,7 +694,7 @@
         
         <a href="/zh-cn/docs/shortcodes/" class="flex items-center">
           <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="简码">
-            简体中文
+            中文-简
           </p>
         </a>
         
@@ -705,7 +721,7 @@
 
             
             
-            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400 ltr:mr-1 rtl:ml-1">
                 <div class="flex items-center justify-center dark:hidden">
                     
 
@@ -731,10 +747,9 @@
 
         </div>
     </div>
-    <div class="-my-2 -mr-2 md:hidden">
+    <div class="-my-2 md:hidden">
 
-        <label id="menu-button" for="menu-controller" class="block">
-            <input type="checkbox" id="menu-controller" class="hidden" />
+        <label id="menu-button" class="block">
             
             <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
                 
@@ -751,7 +766,7 @@
                 <ul
                     class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
 
-                    <li>
+                    <li id="menu-close-button">
                         <span
                             class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
 
@@ -769,11 +784,12 @@
   <li class="mt-1">
     <a href="/ja/docs/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-bg font-bg" title="">
+        <p class="text-bg font-bg" title="資料">
             資料
         </p>
     </a>
 </li>
+
 
 
 
@@ -783,7 +799,7 @@
   <li class="mt-1">
     <a href="/ja/docs/shortcodes/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-bg font-bg" title="">
+        <p class="text-bg font-bg" title="Shortcodes">
             ショートコード
         </p>
     </a>
@@ -791,11 +807,12 @@
 
 
 
+
                     
 
                      
   <li class="mt-1">
-    <a class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="" class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             例
@@ -827,7 +844,7 @@
 <li class="mt-1">
     <a href="/ja/samples/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-sm font-small" title="">
+        <p class="text-sm font-small" title="サンプル">
             サンプル
         </p>
     </a>
@@ -836,7 +853,7 @@
 <li class="mt-1">
     <a href="/ja/examples/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-sm font-small" title="">
+        <p class="text-sm font-small" title="ショーケース">
             ショーケース
         </p>
     </a>
@@ -845,7 +862,7 @@
 <li class="mt-1">
     <a href="/ja/guides/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-sm font-small" title="">
+        <p class="text-sm font-small" title="レシピ">
             レシピ
         </p>
     </a>
@@ -855,17 +872,19 @@
 
 
 
+
                     
 
                     
   <li class="mt-1">
     <a href="/ja/users/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-bg font-bg" title="">
+        <p class="text-bg font-bg" title="ユーザー">
             ユーザー
         </p>
     </a>
 </li>
+
 
 
 
@@ -880,6 +899,7 @@
         </p>
     </a>
 </li>
+
 
 
 
@@ -907,6 +927,7 @@
 
 
 
+
                     
 
                     
@@ -929,6 +950,7 @@
         </p>
     </a>
 </li>
+
 
 
 
@@ -1208,14 +1230,14 @@
 </span><span class="px-2 text-primary-500">&middot;</span>
 
 
-<script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
+<script type="text/javascript" src="/js/zen-mode.min.eea5245cf9244ecbdf2c150d1c8833226c1541cadf6e98f63a7c9192b1a3676df2c3ec603b14f4cfaaa53971fd9d8955640c0f405bf3de2b43ee7a5fb29ae721.js" integrity="sha512-7qUkXPkkTsvfLBUNHIgzImwVQcrfbpj2OnyRkrGjZ23yw&#43;xgOxT0z6qlOXH9nYlVZAwPQFvz3itD7npfsprnIQ=="></script>
 
 <span class="mb-[2px]">
     <span id="zen-mode-button"
           class="text-lg hover:text-primary-500"
-          title=""
-          data-title-i18n-disable=""
-          data-title-i18n-enable="">
+          title="Zenモードを有効にする"
+          data-title-i18n-disable="Zenモードを有効にする"
+          data-title-i18n-enable="Zenモードを無効にする">
         <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
@@ -1264,7 +1286,7 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/shortcodes/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/shortcodes/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Shortcodes
@@ -1272,7 +1294,7 @@
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/mermaid/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/mermaid/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Mermaid
@@ -1280,7 +1302,7 @@
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/icon/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/icon/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Icon
@@ -1288,7 +1310,7 @@
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/lead/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/lead/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Lead
@@ -1296,7 +1318,7 @@
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Docs
@@ -1308,6 +1330,7 @@
   
   
 </div>
+
 
 
 
@@ -1339,13 +1362,14 @@
       class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
       <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
 
-         <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
   <summary
     class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
     目次
   </summary>
   <div
-    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
     <li><a href="#alert">Alert</a></li>
@@ -1410,8 +1434,33 @@
   </div>
 </details>
 
- 
 <script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
   (function () {
     var $toc = $('#TableOfContents');
     if ($toc.length > 0) {
@@ -1424,7 +1473,7 @@
         h.each(function (i, e) {
           e = $(e);
           if (e.offset().top - $(window).height()/3 <= currentScroll) {
-            id = e.attr('id');
+            id = decodeURIComponent(e.attr('id'));
           }
         });
         var active = $toc.find('a.active');      
@@ -1448,6 +1497,8 @@
       });
     }
   })();
+
+
 </script>
    </div>
       </div>
@@ -1460,7 +1511,7 @@
     
     <summary
         class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
-        Documentation - This article is part of a series.
+        Documentation - この記事は連載の一部です
     </summary>
     
     
@@ -1468,7 +1519,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/welcome/">
-            Part 1: Welcome to Blowfish
+            パート 1: Welcome to Blowfish
         </a>
     </div>
     
@@ -1477,7 +1528,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/installation/">
-            Part 2: Installation
+            パート 2: Installation
         </a>
     </div>
     
@@ -1486,7 +1537,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/getting-started/">
-            Part 3: Getting Started
+            パート 3: Getting Started
         </a>
     </div>
     
@@ -1495,7 +1546,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/configuration/">
-            Part 4: Configuration
+            パート 4: Configuration
         </a>
     </div>
     
@@ -1504,7 +1555,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/homepage-layout/">
-            Part 5: Homepage Layout
+            パート 5: Homepage Layout
         </a>
     </div>
     
@@ -1513,7 +1564,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/thumbnails/">
-            Part 6: Thumbnails
+            パート 6: Thumbnails
         </a>
     </div>
     
@@ -1522,7 +1573,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/front-matter/">
-            Part 7: Front Matter
+            パート 7: Front Matter
         </a>
     </div>
     
@@ -1530,7 +1581,7 @@
     
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part 8: This Article
+        パート 8: この記事
     </div>
     
     
@@ -1538,7 +1589,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/partials/">
-            Part 9: Partials
+            パート 9: Partials
         </a>
     </div>
     
@@ -1547,7 +1598,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/multi-author/">
-            Part 10: Multiple Authors
+            パート 10: Multiple Authors
         </a>
     </div>
     
@@ -1556,7 +1607,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/series/">
-            Part 11: Series
+            パート 11: Series
         </a>
     </div>
     
@@ -1565,7 +1616,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/content-examples/">
-            Part 12: Content Examples
+            パート 12: Content Examples
         </a>
     </div>
     
@@ -1574,7 +1625,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/advanced-customisation/">
-            Part 13: Advanced Customisation
+            パート 13: Advanced Customisation
         </a>
     </div>
     
@@ -1583,7 +1634,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/hosting-deployment/">
-            Part 14: Hosting &amp; Deployment
+            パート 14: Hosting &amp; Deployment
         </a>
     </div>
     
@@ -1592,7 +1643,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/firebase-views/">
-            Part 15: Firebase: Views &amp; Likes
+            パート 15: Firebase: Views &amp; Likes
         </a>
     </div>
     
@@ -1604,8 +1655,7 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>In addition to all the <a href="https://gohugo.io/content-management/shortcodes/"   target="_blank">
-    default Hugo shortcodes</a>, Blowfish adds a few extras for additional functionality.</p>
+          <p>In addition to all the <a href="https://gohugo.io/content-management/shortcodes/" target="_blank">default Hugo shortcodes</a>, Blowfish adds a few extras for additional functionality.</p>
 
 
 <h2 class="relative group">Alert 
@@ -1621,31 +1671,30 @@
 <p><code>alert</code> outputs its contents as a stylised message box within your article. It&rsquo;s useful for drawing attention to important information that you don&rsquo;t want the reader to miss.</p>
 <!-- prettier-ignore-start -->
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>icon</code></td>
-<td><strong>Optional.</strong> the icon to display on the left side.<br><strong>Default:</strong> <code>exclaimation triangle icon</code> (Check out the <a href="#icon"  >
-    icon shortcode</a> for more details on using icons.)</td>
-</tr>
-<tr>
-<td><code>iconColor</code></td>
-<td><strong>Optional.</strong> the color for the icon in basic CSS style.<br>Can be either hex values (<code>#FFFFFF</code>) or color names (<code>white</code>)<br>By default chosen based on the current color theme .</td>
-</tr>
-<tr>
-<td><code>cardColor</code></td>
-<td><strong>Optional.</strong> the color for the card background in basic CSS style.<br>Can be either hex values (<code>#FFFFFF</code>) or color names (<code>white</code>)<br>By default chosen based on the current color theme .</td>
-</tr>
-<tr>
-<td><code>textColor</code></td>
-<td><strong>Optional.</strong> the color for the text in basic CSS style.<br>Can be either hex values (<code>#FFFFFF</code>) or color names (<code>white</code>)<br>By default chosen based on the current color theme .</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>icon</code></td>
+          <td><strong>Optional.</strong> the icon to display on the left side.<br><strong>Default:</strong> <code>exclaimation triangle icon</code> (Check out the <a href="#icon">icon shortcode</a> for more details on using icons.)</td>
+      </tr>
+      <tr>
+          <td><code>iconColor</code></td>
+          <td><strong>Optional.</strong> the color for the icon in basic CSS style.<br>Can be either hex values (<code>#FFFFFF</code>) or color names (<code>white</code>)<br>By default chosen based on the current color theme .</td>
+      </tr>
+      <tr>
+          <td><code>cardColor</code></td>
+          <td><strong>Optional.</strong> the color for the card background in basic CSS style.<br>Can be either hex values (<code>#FFFFFF</code>) or color names (<code>white</code>)<br>By default chosen based on the current color theme .</td>
+      </tr>
+      <tr>
+          <td><code>textColor</code></td>
+          <td><strong>Optional.</strong> the color for the text in basic CSS style.<br>Can be either hex values (<code>#FFFFFF</code>) or color names (<code>white</code>)<br>By default chosen based on the current color theme .</td>
+      </tr>
+  </tbody>
 </table>
 <!-- prettier-ignore-end -->
 <p>The input is written in Markdown so you can format it however you please.</p>
@@ -1716,12 +1765,11 @@
   <span
     
       class="dark:text-neutral-300"
-    >Don&rsquo;t forget to <a href="https://twitter.com/nunocoracao"   target="_blank">
-    follow me</a> on Twitter.</span>
+    >Don&rsquo;t forget to <a href="https://twitter.com/nunocoracao" target="_blank">follow me</a> on Twitter.</span>
 </div>
 
 <p><strong>Example 3:</strong> Named params</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">alert</span> <span class="na">icon</span><span class="o">=</span><span class="s">&#34;fire&#34;</span> <span class="na">cardColor</span><span class="o">=</span><span class="s">&#34;#e63946&#34;</span> <span class="na">iconColor</span><span class="o">=</span><span class="s">&#34;#1d3557&#34;</span> <span class="na">textColor</span><span class="o">=</span><span class="s">&#34;#f1faee&#34;</span> <span class="p">&gt;</span>}}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">alert</span> <span class="na">icon</span><span class="o">=</span><span class="s">&#34;fire&#34;</span> <span class="na">cardColor</span><span class="o">=</span><span class="s">&#34;</span><span class="ni">#e63946</span><span class="s">&#34;</span> <span class="na">iconColor</span><span class="o">=</span><span class="s">&#34;</span><span class="ni">#1d3557</span><span class="s">&#34;</span> <span class="na">textColor</span><span class="o">=</span><span class="s">&#34;</span><span class="ni">#f1faee</span><span class="s">&#34;</span> <span class="p">&gt;</span>}}
 </span></span><span class="line"><span class="cl">This is an error!
 </span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">alert</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div>
@@ -1776,18 +1824,18 @@
 <p><code>Article</code> will embed a single article into a markdown file. The <code>link</code> to the file should be the <code>.RelPermalink</code> of the file to be embedded. Note that the shortcode will not display anything if it&rsquo;s referencing it&rsquo;s parent. <em>Note: if you are running your website in a subfolder like Blowfish (i.e. /blowfish/) please include that path in the link.</em></p>
 <!-- prettier-ignore-start -->
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>link</code></td>
-<td><strong>Required.</strong> the <code>.RelPermalink</code> to the target article.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>link</code></td>
+          <td><strong>Required.</strong> the <code>.RelPermalink</code> to the target article.</td>
+      </tr>
+  </tbody>
 </table>
 <!-- prettier-ignore-end -->
 <p><strong>Example:</strong></p>
@@ -1970,7 +2018,7 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/new/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/new/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     New
@@ -1978,7 +2026,7 @@
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Docs
@@ -1993,10 +2041,12 @@
 
 
 
+
       </div>
       
     </div>
   </a>
+
         
     
 </section>
@@ -2041,13 +2091,14 @@ New article!
 </h2>
 <p><code>button</code> outputs a styled button component which can be used to highlight a primary action. It has two optional variables <code>href</code> and <code>target</code> which can be used to specify the URL and target of the link.</p>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">button</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;#button&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_self&#34;</span> <span class="p">&gt;</span>}}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">button</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;</span><span class="ni">#button</span><span class="s">&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_self&#34;</span> <span class="p">&gt;</span>}}
 </span></span><span class="line"><span class="cl">Call to action
 </span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">button</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div><a
   class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
   href="#button"
   target="_self"
+  
   role="button"
 >
   
@@ -2071,26 +2122,26 @@ Call to action
 <p><code>carousel</code> is used to showcase multiple images in an interactive and visually appealing way. This allows a user to slide through multiple images while only taking up the vertical space of a single one. All images are displayed using the full width of the parent component and using one of the predefined aspect ratios of <code>16:9</code>, <code>21:9</code> or <code>32:9</code>.</p>
 <!-- prettier-ignore-start -->
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>images</code></td>
-<td><strong>Required.</strong> A regex string to match image names or URLs.</td>
-</tr>
-<tr>
-<td><code>aspectRatio</code></td>
-<td><strong>Optional.</strong> The aspect ratio for the carousel. Either <code>16-9</code>, <code>21-9</code> or <code>32-9</code>. It is set to <code>16-9</code> by default.</td>
-</tr>
-<tr>
-<td><code>interval</code></td>
-<td><strong>Optional.</strong> The interval for the auto-scrooling, specified in milliseconds. Defaults to <code>2000</code> (2s)</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>images</code></td>
+          <td><strong>Required.</strong> A regex string to match image names or URLs.</td>
+      </tr>
+      <tr>
+          <td><code>aspectRatio</code></td>
+          <td><strong>Optional.</strong> The aspect ratio for the carousel. Either <code>16-9</code>, <code>21-9</code> or <code>32-9</code>. It is set to <code>16-9</code> by default.</td>
+      </tr>
+      <tr>
+          <td><code>interval</code></td>
+          <td><strong>Optional.</strong> The interval for the auto-scrooling, specified in milliseconds. Defaults to <code>2000</code> (2s)</td>
+      </tr>
+  </tbody>
 </table>
 <!-- prettier-ignore-end -->
 <p><strong>Example 1:</strong> 16:9 aspect ratio and verbose list of images</p>
@@ -2178,7 +2229,7 @@ Call to action
         <div class="relative float-left -mr-[100%]  w-full transition-transform duration-[2000ms] ease-in-out motion-reduce:transition-none"
             data-twe-carousel-item  data-twe-carousel-active >
             <div class="ratio-16-9 single_hero_background">
-                <img src="/mountains-1899264_960_720_12118456770990615239.jpg" class="block absolute top-0 object-cover w-full h-full nozoom" alt="carousel image 0"/>
+                <img src="/mountains-1899264_960_720_14245824459852564187.jpg" class="block absolute top-0 object-cover w-full h-full nozoom" alt="carousel image 0"/>
             </div>
         </div>
 
@@ -2442,10 +2493,8 @@ Call to action
     </span>        
     
 </h2>
-<p><code>chart</code> uses the Chart.js library to embed charts into articles using simple structured data. It supports a number of <a href="https://www.chartjs.org/docs/latest/samples/"   target="_blank">
-    different chart styles</a> and everything can be configured from within the shortcode. Simply provide the chart parameters between the shortcode tags and Chart.js will do the rest.</p>
-<p>Refer to the <a href="https://www.chartjs.org/docs/latest/general/"   target="_blank">
-    official Chart.js docs</a> for details on syntax and supported chart types.</p>
+<p><code>chart</code> uses the Chart.js library to embed charts into articles using simple structured data. It supports a number of <a href="https://www.chartjs.org/docs/latest/samples/" target="_blank">different chart styles</a> and everything can be configured from within the shortcode. Simply provide the chart parameters between the shortcode tags and Chart.js will do the rest.</p>
+<p>Refer to the <a href="https://www.chartjs.org/docs/latest/general/" target="_blank">official Chart.js docs</a> for details on syntax and supported chart types.</p>
 <p><strong>Example:</strong></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">&lt;</span> <span class="nx">chart</span> <span class="o">&gt;</span><span class="p">}}</span>
 </span></span><span class="line"><span class="cl"><span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;bar&#39;</span><span class="p">,</span>
@@ -2481,8 +2530,7 @@ data: {
 </div>
 
 <!-- prettier-ignore-end -->
-<p>You can see some additional Chart.js examples on the <a href="https://localhost:1313/ja/samples/charts/"  >
-    charts samples</a> page.</p>
+<p>You can see some additional Chart.js examples on the <a href="https://localhost:1313/ja/samples/charts/">charts samples</a> page.</p>
 <p><br/><br/><br/></p>
 
 
@@ -2501,49 +2549,46 @@ data: {
 <p>The <code>figure</code> shortcode accepts six parameters:</p>
 <!-- prettier-ignore-start -->
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>src</code></td>
-<td><strong>Required.</strong> The local path/filename or URL of the image. When providing a path and filename, the theme will attempt to locate the image using the following lookup order: Firstly, as a <a href="https://gohugo.io/content-management/page-resources/"   target="_blank">
-    page resource</a> bundled with the page; then an asset in the <code>assets/</code> directory; then finally, a static image in the <code>static/</code> directory.</td>
-</tr>
-<tr>
-<td><code>alt</code></td>
-<td><a href="https://moz.com/learn/seo/alt-text"   target="_blank">
-    Alternative text description</a> for the image.</td>
-</tr>
-<tr>
-<td><code>caption</code></td>
-<td>Markdown for the image caption, which will be displayed below the image.</td>
-</tr>
-<tr>
-<td><code>class</code></td>
-<td>Additional CSS classes to apply to the image.</td>
-</tr>
-<tr>
-<td><code>href</code></td>
-<td>URL that the image should be linked to.</td>
-</tr>
-<tr>
-<td><code>target</code></td>
-<td>The target attribute for the <code>href</code> URL.</td>
-</tr>
-<tr>
-<td><code>nozoom</code></td>
-<td><code>nozoom=true</code> disables the image &ldquo;zoom&rdquo; functionality. This is most useful in combination with a <code>href</code> link.</td>
-</tr>
-<tr>
-<td><code>default</code></td>
-<td>Special parameter to revert to default Hugo <code>figure</code> behaviour. Simply provide <code>default=true</code> and then use normal <a href="https://gohugo.io/content-management/shortcodes/#figure"   target="_blank">
-    Hugo shortcode syntax</a>.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>src</code></td>
+          <td><strong>Required.</strong> The local path/filename or URL of the image. When providing a path and filename, the theme will attempt to locate the image using the following lookup order: Firstly, as a <a href="https://gohugo.io/content-management/page-resources/" target="_blank">page resource</a> bundled with the page; then an asset in the <code>assets/</code> directory; then finally, a static image in the <code>static/</code> directory.</td>
+      </tr>
+      <tr>
+          <td><code>alt</code></td>
+          <td><a href="https://moz.com/learn/seo/alt-text" target="_blank">Alternative text description</a> for the image.</td>
+      </tr>
+      <tr>
+          <td><code>caption</code></td>
+          <td>Markdown for the image caption, which will be displayed below the image.</td>
+      </tr>
+      <tr>
+          <td><code>class</code></td>
+          <td>Additional CSS classes to apply to the image.</td>
+      </tr>
+      <tr>
+          <td><code>href</code></td>
+          <td>URL that the image should be linked to.</td>
+      </tr>
+      <tr>
+          <td><code>target</code></td>
+          <td>The target attribute for the <code>href</code> URL.</td>
+      </tr>
+      <tr>
+          <td><code>nozoom</code></td>
+          <td><code>nozoom=true</code> disables the image &ldquo;zoom&rdquo; functionality. This is most useful in combination with a <code>href</code> link.</td>
+      </tr>
+      <tr>
+          <td><code>default</code></td>
+          <td>Special parameter to revert to default Hugo <code>figure</code> behaviour. Simply provide <code>default=true</code> and then use normal <a href="https://gohugo.io/content-management/shortcodes/#figure" target="_blank">Hugo shortcode syntax</a>.</td>
+      </tr>
+  </tbody>
 </table>
 <!-- prettier-ignore-end -->
 <p>Blowfish also supports automatic conversion of images included using standard Markdown syntax. Simply use the following format and the theme will handle the rest:</p>
@@ -2559,43 +2604,20 @@ data: {
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">![<span class="nt">Abstract purple artwork</span>](<span class="na">abstract.jpg &#34;Photo by [Jr Korpa](https://unsplash.com/@jrkorpa</span>) on [<span class="nt">Unsplash</span>](<span class="na">https://unsplash.com/</span>)&#34;)
 </span></span></code></pre></div>
-
+<figure>
+        <img
+          class="my-0 rounded-md"
+          srcset="
+          /docs/shortcodes/abstract_hu_c5d995928e8ae1de.jpg 330w,
+          /docs/shortcodes/abstract_hu_be41cfbfb0dde96b.jpg 660w,
+          /docs/shortcodes/abstract_hu_33a616f35369d487.jpg 1024w,
+          /docs/shortcodes/abstract_hu_ac13d9cf4bbd5c28.jpg 2x"
+          src="/docs/shortcodes/abstract_hu_be41cfbfb0dde96b.jpg"
+          alt="Abstract purple artwork"
+        />
+  <figcaption>Photo by <a href="https://unsplash.com/@jrkorpa" target="_blank">Jr Korpa</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a></figcaption>
   
-  
-  
-  
-  
-  
-  
-  
-    
-    
-      
-    
-    
-      <figure >
-        
-          
-          <img
-            class="my-0 rounded-md"
-            srcset="
-            /docs/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_330x0_resize_q75_box.jpg 330w,
-            /docs/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_660x0_resize_q75_box.jpg 660w,
-            /docs/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_1024x0_resize_q75_box.jpg 1024w,
-            /docs/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_1320x0_resize_q75_box.jpg 2x"
-            src="/docs/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_660x0_resize_q75_box.jpg"
-            alt="Abstract purple artwork"
-          />
-          
-        
-        <figcaption>Photo by <a href="https://unsplash.com/@jrkorpa"   target="_blank">
-    Jr Korpa</a> on <a href="https://unsplash.com/"   target="_blank">
-    Unsplash</a></figcaption>
-      </figure>
-    
-  
-
-
+  </figure>
 <p><br/><br/><br/></p>
 
 
@@ -2674,18 +2696,18 @@ data: {
 <p><code>github</code> allows you to quickly link a github repository, all while showing and updating in realtime stats about it, such as the number of stars and forks it has.</p>
 <!-- prettier-ignore-start -->
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>repo</code></td>
-<td>[String] github repo in the format of <code>username/repo</code></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>repo</code></td>
+          <td>[String] github repo in the format of <code>username/repo</code></td>
+      </tr>
+  </tbody>
 </table>
 <!-- prettier-ignore-end -->
 <p><strong>Example 1:</strong></p>
@@ -2719,9 +2741,9 @@ data: {
     <div class="m-0 mt-2 flex items-center">
 
       <span class="mr-1 inline-block h-3 w-3 rounded-full"
-        style="background-color: #f1e05a"></span>
+        style="background-color: #e34c26"></span>
       <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-         JavaScript 
+         HTML 
       </div>
 
       <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -2734,7 +2756,7 @@ data: {
 
       </span>
       <div id="github-70cccc56f98d9fe1bfde1a9f29ee0a2a-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        1067
+        1696
       </div>
 
       <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -2747,7 +2769,7 @@ data: {
 
       </span>
       <div id="github-70cccc56f98d9fe1bfde1a9f29ee0a2a-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        316
+        460
       </div>
 
     </div>
@@ -2788,22 +2810,22 @@ Unlike <code>github</code> it can&rsquo;t display the main programming language 
 Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4/projects/</code> endpoint is available, making this shortcode compatible with most self-hosted / enterprise deployments.</p>
 <!-- prettier-ignore-start -->
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>projectID</code></td>
-<td>[String] gitlab numeric ProjectID</td>
-</tr>
-<tr>
-<td><code>baseURL</code></td>
-<td>[String] optional gitlab instance URL, default is <code>https://gitlab.com/</code></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>projectID</code></td>
+          <td>[String] gitlab numeric ProjectID</td>
+      </tr>
+      <tr>
+          <td><code>baseURL</code></td>
+          <td>[String] optional gitlab instance URL, default is <code>https://gitlab.com/</code></td>
+      </tr>
+  </tbody>
 </table>
 <!-- prettier-ignore-end -->
 <p><strong>Example 1:</strong></p>
@@ -2842,7 +2864,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 
       </span>
       <div id="gitlab-f143b62723897501947a1d4577933e9b-star_count" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        5023
+        5433
       </div>
 
       <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -2855,7 +2877,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 
       </span>
       <div id="gitlab-f143b62723897501947a1d4577933e9b-forks_count" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        9695
+        10645
       </div>
 
     </div>
@@ -2901,11 +2923,9 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   </span>
 
 </p>
-<p>Icons are populated using Hugo pipelines which makes them very flexible. Blowfish includes a number of built-in icons for social, links and other purposes. Check the <a href="https://localhost:1313/ja/samples/icons/"  >
-    icon samples</a> page for a full list of supported icons.</p>
+<p>Icons are populated using Hugo pipelines which makes them very flexible. Blowfish includes a number of built-in icons for social, links and other purposes. Check the <a href="https://localhost:1313/ja/samples/icons/">icon samples</a> page for a full list of supported icons.</p>
 <p>Custom icons can be added by providing your own icon assets in the <code>assets/icons/</code> directory of your project. The icon can then be referenced in the shortcode by using the SVG filename without the <code>.svg</code> extension.</p>
-<p>Icons can also be used in partials by calling the <a href="https://localhost:1313/ja/docs/partials/#icon"  >
-    icon partial</a>.</p>
+<p>Icons can also be used in partials by calling the <a href="https://localhost:1313/ja/docs/partials/#icon">icon partial</a>.</p>
 <p><br/><br/><br/></p>
 
 
@@ -2919,8 +2939,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
     </span>        
     
 </h2>
-<p>The <code>katex</code> shortcode can be used to add mathematical expressions to article content using the KaTeX package. Refer to the online reference of <a href="https://katex.org/docs/supported.html"   target="_blank">
-    supported TeX functions</a> for the available syntax.</p>
+<p>The <code>katex</code> shortcode can be used to add mathematical expressions to article content using the KaTeX package. Refer to the online reference of <a href="https://katex.org/docs/supported.html" target="_blank">supported TeX functions</a> for the available syntax.</p>
 <p>To include mathematical expressions in an article, simply place the shortcode anywhere with the content. It only needs to be included once per article and KaTeX will automatically render any markup on that page. Both inline and block notation are supported.</p>
 <p>Inline notation can be generated by wrapping the expression in <code>\\(</code> and <code>\\)</code> delimiters. Alternatively, block notation can be generated using <code>$$</code> delimiters.</p>
 <p><strong>Example:</strong></p>
@@ -2929,8 +2948,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span></span></code></pre></div><p>
 
 \(f(a,b,c) = (a^2+b^2+c^2)^3\)</p>
-<p>Check out the <a href="https://localhost:1313/ja/samples/mathematical-notation/"  >
-    mathematical notation samples</a> page for more examples.</p>
+<p>Check out the <a href="https://localhost:1313/ja/samples/mathematical-notation/">mathematical notation samples</a> page for more examples.</p>
 <p><br/><br/><br/></p>
 
 
@@ -2947,18 +2965,18 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 <p>The <code>keyword</code> component can be used to visually highlight certain important words or phrases, e.g. professional skills etc. The <code>keywordList</code> shortcode can be used to group together multiple <code>keyword</code> items. Each item can have the following properties.</p>
 <!-- prettier-ignore-start -->
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>icon</code></td>
-<td>Optional icon to be used in the keyword</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>icon</code></td>
+          <td>Optional icon to be used in the keyword</td>
+      </tr>
+  </tbody>
 </table>
 <!-- prettier-ignore-end -->
 <p>The input is written in Markdown so you can format it however you please.</p>
@@ -3074,34 +3092,34 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 <p><code>List</code> will display a list of recent articles. This shortcode requires a limit value to constraint the list. Additionally, it supports a <code>where</code> and a <code>value</code> in order to filter articles by their parameters. Note that this shortcode will not display its parent page but it will count for the limit value.</p>
 <!-- prettier-ignore-start -->
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>limit</code></td>
-<td><strong>Required.</strong> the number of recent articles to display.</td>
-</tr>
-<tr>
-<td><code>title</code></td>
-<td>Optional title for the list, default is <code>Recent</code></td>
-</tr>
-<tr>
-<td><code>cardView</code></td>
-<td>Optional card view enabled for the list, default is <code>false</code></td>
-</tr>
-<tr>
-<td><code>where</code></td>
-<td>The variable to be used for the query of articles e.g. <code>Type</code></td>
-</tr>
-<tr>
-<td><code>value</code></td>
-<td>The value that will need to match the parameter defined in <code>where</code> for the query of articles e.g. for <code>where</code> == <code>Type</code> a valid value could be <code>sample</code></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>limit</code></td>
+          <td><strong>Required.</strong> the number of recent articles to display.</td>
+      </tr>
+      <tr>
+          <td><code>title</code></td>
+          <td>Optional title for the list, default is <code>Recent</code></td>
+      </tr>
+      <tr>
+          <td><code>cardView</code></td>
+          <td>Optional card view enabled for the list, default is <code>false</code></td>
+      </tr>
+      <tr>
+          <td><code>where</code></td>
+          <td>The variable to be used for the query of articles e.g. <code>Type</code></td>
+      </tr>
+      <tr>
+          <td><code>value</code></td>
+          <td>The value that will need to match the parameter defined in <code>where</code> for the query of articles e.g. for <code>where</code> == <code>Type</code> a valid value could be <code>sample</code></td>
+      </tr>
+  </tbody>
 </table>
 
   
@@ -3131,8 +3149,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   <span
     
       class="dark:text-neutral-300"
-    >The <code>where</code> and <code>value</code> values are used in the following query <code>where .Site.RegularPages $where $value</code> in the code of the shortcode. Check <a href="https://gohugo.io/variables/page/"   target="_blank">
-    Hugo docs</a> to learn more about which parameters are available to use.</span>
+    >The <code>where</code> and <code>value</code> values are used in the following query <code>where .Site.RegularPages $where $value</code> in the code of the shortcode. Check <a href="https://gohugo.io/variables/page/" target="_blank">Hugo docs</a> to learn more about which parameters are available to use.</span>
 </div>
 
 <!-- prettier-ignore-end -->
@@ -3180,7 +3197,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="https://nunocoracao.com/posts/202310-blowfish-tutorial/" target="_blank" rel="external">
   
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/guides/202310-blowfish-tutorial/featured_hue1fa31ed5a32e25c5f9433c308ac1721_23129_600x0_resize_q75_box.jpg);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/guides/202310-blowfish-tutorial/featured_hu_3d57de9fd5511b78.jpg);"></div>
         
       <div class=" p-4">
       <div class="items-center text-left text-xl font-semibold">
@@ -3248,7 +3265,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   
   
   
-     <div style="cursor: pointer;" onclick="window.open(&#34;/ja/authors/nunocoracao/&#34;,'_self')">Nuno Coração</div>
+     <div style="cursor: pointer;" onclick="window.open(&#34;/ja/authors/nunocoracao/&#34;,'_self');return false;">Nuno Coração</div>
   
   
   
@@ -3271,7 +3288,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/categories/open-source/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/categories/open-source/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Open-Source
@@ -3279,7 +3296,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/categories/blowfish/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/categories/blowfish/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Blowfish
@@ -3295,7 +3312,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/tutorial/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/tutorial/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Tutorial
@@ -3303,7 +3320,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/blowfish/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/blowfish/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Blowfish
@@ -3311,7 +3328,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/hugo/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/hugo/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Hugo
@@ -3326,10 +3343,12 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 
 
 
+
       </div>
       
     </div>
   </a>
+
             
         
             
@@ -3477,9 +3496,9 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   
   
   
-     <div style="cursor: pointer;" onclick="window.open(&#34;/ja/authors/nunocoracao/&#34;,'_self')">Nuno Coração</div>
+     <div style="cursor: pointer;" onclick="window.open(&#34;/ja/authors/nunocoracao/&#34;,'_self');return false;">Nuno Coração</div>
   
-     ,&nbsp;  <div style="cursor: pointer;" onclick="window.open(&#34;/ja/authors/secondauthor/&#34;,'_self')">2人目のダミー作者</div>
+     ,&nbsp;  <div style="cursor: pointer;" onclick="window.open(&#34;/ja/authors/secondauthor/&#34;,'_self');return false;">2人目のダミー作者</div>
   
   
   
@@ -3508,7 +3527,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/authors/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/authors/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Authors
@@ -3516,7 +3535,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Sample
@@ -3531,10 +3550,12 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 
 
 
+
       </div>
       
     </div>
   </a>
+
             
         
     
@@ -3684,9 +3705,9 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   
   
   
-     <div style="cursor: pointer;" onclick="window.open(&#34;/ja/authors/nunocoracao/&#34;,'_self')">Nuno Coração</div>
+     <div style="cursor: pointer;" onclick="window.open(&#34;/ja/authors/nunocoracao/&#34;,'_self');return false;">Nuno Coração</div>
   
-     ,&nbsp;  <div style="cursor: pointer;" onclick="window.open(&#34;/ja/authors/secondauthor/&#34;,'_self')">2人目のダミー作者</div>
+     ,&nbsp;  <div style="cursor: pointer;" onclick="window.open(&#34;/ja/authors/secondauthor/&#34;,'_self');return false;">2人目のダミー作者</div>
   
   
   
@@ -3715,7 +3736,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/authors/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/authors/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Authors
@@ -3723,7 +3744,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Sample
@@ -3738,6 +3759,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 
 
 
+
         </div>
 
         
@@ -3747,6 +3769,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
       </div>
     </div>
   </a>
+
             
         
             
@@ -3899,7 +3922,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/thumbnail/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/thumbnail/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Thumbnail
@@ -3907,7 +3930,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Sample
@@ -3922,6 +3945,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 
 
 
+
         </div>
 
         
@@ -3931,6 +3955,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
       </div>
     </div>
   </a>
+
             
         
             
@@ -3989,7 +4014,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2022-03-09 00:00:00 &#43;0000 UTC">更新日: 2022-03-09</time><span class="px-2 text-primary-500">&middot;</span><span title="読むのに必要な時間">1 分</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2022-03-09T00:00:00&#43;00:00">更新日: 2022-03-09</time><span class="px-2 text-primary-500">&middot;</span><span title="読むのに必要な時間">1 分</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -4085,7 +4110,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/icons/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/icons/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Icons
@@ -4093,7 +4118,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Sample
@@ -4101,7 +4126,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/shortcodes/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/shortcodes/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Shortcodes
@@ -4116,6 +4141,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 
 
 
+
         </div>
 
         
@@ -4125,6 +4151,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
       </div>
     </div>
   </a>
+
             
         
             
@@ -4277,7 +4304,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/markdown/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/markdown/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Markdown
@@ -4285,7 +4312,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/css/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/css/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Css
@@ -4293,7 +4320,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/html/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/html/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Html
@@ -4301,7 +4328,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Sample
@@ -4316,6 +4343,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 
 
 
+
         </div>
 
         
@@ -4325,6 +4353,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
       </div>
     </div>
   </a>
+
             
         
             
@@ -4477,7 +4506,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/shortcodes/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/shortcodes/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Shortcodes
@@ -4485,7 +4514,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/privacy/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/privacy/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Privacy
@@ -4493,7 +4522,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Sample
@@ -4501,7 +4530,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/gist/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/gist/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Gist
@@ -4509,7 +4538,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/twitter/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/twitter/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Twitter
@@ -4517,7 +4546,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/youtube/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/youtube/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Youtube
@@ -4525,7 +4554,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/vimeo/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/vimeo/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Vimeo
@@ -4540,6 +4569,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 
 
 
+
         </div>
 
         
@@ -4549,6 +4579,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
       </div>
     </div>
   </a>
+
             
         
             
@@ -4607,7 +4638,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2022-01-24 00:00:00 &#43;0000 UTC">更新日: 2022-01-24</time><span class="px-2 text-primary-500">&middot;</span><span title="読むのに必要な時間">1 分</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2022-01-24T00:00:00&#43;00:00">更新日: 2022-01-24</time><span class="px-2 text-primary-500">&middot;</span><span title="読むのに必要な時間">1 分</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -4703,7 +4734,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/markdown/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/markdown/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Markdown
@@ -4711,7 +4742,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/text/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/text/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Text
@@ -4719,7 +4750,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Sample
@@ -4727,7 +4758,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/latin/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/latin/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Latin
@@ -4742,6 +4773,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 
 
 
+
         </div>
 
         
@@ -4751,6 +4783,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
       </div>
     </div>
   </a>
+
             
         
     
@@ -4771,8 +4804,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
     </span>        
     
 </h2>
-<p><code>ltr</code> and <code>rtl</code> allows you to mix your contents. Many RTL language users want to include parts of the content in LTR. Using this shortcode will let you do so, and by leveraging <code>%</code> as the outer-most dilemeter in the shortcode <a href="https://gohugo.io/content-management/shortcodes/#shortcodes-with-markdown"   target="_blank">
-    Hugo shortcodes</a>, any markdown inside will be rendered normally.</p>
+<p><code>ltr</code> and <code>rtl</code> allows you to mix your contents. Many RTL language users want to include parts of the content in LTR. Using this shortcode will let you do so, and by leveraging <code>%</code> as the outer-most dilemeter in the shortcode <a href="https://gohugo.io/content-management/shortcodes/#shortcodes-with-markdown" target="_blank">Hugo shortcodes</a>, any markdown inside will be rendered normally.</p>
 <p><strong>Example:</strong></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl"><span class="k">-</span> This is an markdown list.
 </span></span><span class="line"><span class="cl"><span class="k">-</span> Its per default a LTR direction
@@ -4806,18 +4838,18 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 <p>This shortcode allows you to import markdown files from external sources. This is useful for including content from other repositories or websites without having to copy and paste the content.</p>
 <!-- prettier-ignore-start -->
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>url</code></td>
-<td><strong>Required</strong> URL to an externally hosted markdown file.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>url</code></td>
+          <td><strong>Required</strong> URL to an externally hosted markdown file.</td>
+      </tr>
+  </tbody>
 </table>
 <!-- prettier-ignore-end -->
 <p><strong>Example:</strong></p>
@@ -4836,50 +4868,29 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
     </span>        
     
 </h3>
-<p><a href="https://twitter.com/nunocoracao"   target="_blank">
-    
-
-
-
-
+<p><a href="https://twitter.com/nunocoracao" target="_blank">
   <figure>
     <img class="my-0 rounded-md" loading="lazy" src="https://img.shields.io/twitter/follow/nunocoracao?style=social" alt="Twitter badge" />
     
   </figure>
-
 </a>
-<a href="https://www.linkedin.com/in/nunocoracao"   target="_blank">
-    
-
-
-
-
+<a href="https://www.linkedin.com/in/nunocoracao" target="_blank">
   <figure>
     <img class="my-0 rounded-md" loading="lazy" src="https://img.shields.io/badge/LinkedIn-0077B5?style=social&amp;logo=linkedin" alt="Twitter badge" />
     
   </figure>
-
 </a></p>
 <ul>
-<li>🐳 working as a Staff Product Manager @ Docker</li>
-<li>🐡 Creator and maintainer of Blowfish @ <a href="https://blowfish.page"   target="_blank">
-    Blowfish page</a></li>
-<li>🚀 Personal blog - <a href="https://n9o.xyz"   target="_blank">
-    n9o.xyz</a></li>
-<li>📚 mentoring @ <a href="https://mentorcruise.com/mentor/nunocorao/"   target="_blank">
-    mentorcruise</a></li>
+<li>🐳 Principal Product Manager @ Docker</li>
+<li>🐡 Creator and maintainer of Blowfish @ <a href="https://blowfish.page" target="_blank">Blowfish page</a></li>
+<li>🚀 Personal blog - <a href="https://n9o.xyz" target="_blank">n9o.xyz</a></li>
+<li>📚 mentoring @ <a href="https://mentorcruise.com/mentor/nunocorao/" target="_blank">mentorcruise</a></li>
 </ul>
-<p><a href="https://www.buymeacoffee.com/nunocoracao" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a></p>
 <p>
-
-
-
-
   <figure>
-    <img class="my-0 rounded-md" loading="lazy" src="https://github-readme-stats.vercel.app/api?username=nunocoracao&amp;show_icons=true&amp;count_private=true&amp;theme=dark" alt="Nuno&amp;rsquo;s GitHub stats" />
+    <img class="my-0 rounded-md" loading="lazy" src="https://github-readme-stats.vercel.app/api?username=nunocoracao&amp;show_icons=true&amp;count_private=true&amp;theme=dark" alt="Nuno&rsquo;s GitHub stats" />
     
   </figure>
-
 </p>
 <!--
 **nunocoracao/nunocoracao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -4898,6 +4909,7 @@ Here are some ideas to get you started:
 <p><a rel="me" href="https://masto.ai/@nunocoracao"></a></p>
 
 
+
 <p><br/><br/></p>
 
 
@@ -4913,8 +4925,7 @@ Here are some ideas to get you started:
 </h2>
 <p><code>mermaid</code> allows you to draw detailed diagrams and visualisations using text. It uses Mermaid under the hood and supports a wide variety of diagrams, charts and other output formats.</p>
 <p>Simply write your Mermaid syntax within the <code>mermaid</code> shortcode and let the plugin do the rest.</p>
-<p>Refer to the <a href="https://mermaid-js.github.io/"   target="_blank">
-    official Mermaid docs</a> for details on syntax and supported diagram types.</p>
+<p>Refer to the <a href="https://mermaid-js.github.io/" target="_blank">official Mermaid docs</a> for details on syntax and supported diagram types.</p>
 <p><strong>Example:</strong></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">mermaid</span> <span class="p">&gt;</span>}}
 </span></span><span class="line"><span class="cl">graph LR;
@@ -4929,8 +4940,7 @@ B-->C[Profit]
 
 </div>
 
-<p>You can see some additional Mermaid examples on the <a href="https://localhost:1313/ja/samples/diagrams-flowcharts/"  >
-    diagrams and flowcharts samples</a> page.</p>
+<p>You can see some additional Mermaid examples on the <a href="https://localhost:1313/ja/samples/diagrams-flowcharts/">diagrams and flowcharts samples</a> page.</p>
 <p><br/><br/><br/></p>
 
 
@@ -4946,7 +4956,7 @@ B-->C[Profit]
 </h2>
 <p><code>swatches</code> outputs a set of up to three different colors to showcase color elements like a color palette. This shortcode takes the <code>HEX</code> codes of each color and creates the visual elements for each.</p>
 <p><strong>Example</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">swatches</span> <span class="err">&#34;#</span><span class="na">64748b</span><span class="err">&#34;</span> <span class="err">&#34;#</span><span class="na">3b82f6</span><span class="err">&#34;</span> <span class="err">&#34;#</span><span class="na">06b6d4</span><span class="err">&#34;</span> <span class="p">&gt;</span>}}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">swatches</span> <span class="err">&#34;</span><span class="ni">#64748b</span><span class="err">&#34;</span> <span class="err">&#34;</span><span class="ni">#3b82f6</span><span class="err">&#34;</span> <span class="err">&#34;</span><span class="ni">#06b6d4</span><span class="err">&#34;</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div><p><strong>Output</strong>
 <div class="flex justify-between">
   <span
@@ -4979,30 +4989,30 @@ B-->C[Profit]
 <p>The <code>timeline</code> creates a visual timeline that can be used in different use-cases, e.g. professional experience, a project&rsquo;s achievements, etc. The <code>timeline</code> shortcode relies on the <code>timelineItem</code> sub-shortcode to define each item within the main timeline. Each item can have the following properties.</p>
 <!-- prettier-ignore-start -->
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>icon</code></td>
-<td>the icon to be used in the timeline visuals.</td>
-</tr>
-<tr>
-<td><code>header</code></td>
-<td>header for each entry</td>
-</tr>
-<tr>
-<td><code>badge</code></td>
-<td>text to place within the top right badge</td>
-</tr>
-<tr>
-<td><code>subheader</code></td>
-<td>entry&rsquo;s subheader</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>icon</code></td>
+          <td>the icon to be used in the timeline visuals.</td>
+      </tr>
+      <tr>
+          <td><code>header</code></td>
+          <td>header for each entry</td>
+      </tr>
+      <tr>
+          <td><code>badge</code></td>
+          <td>text to place within the top right badge</td>
+      </tr>
+      <tr>
+          <td><code>subheader</code></td>
+          <td>entry&rsquo;s subheader</td>
+      </tr>
+  </tbody>
 </table>
 <!-- prettier-ignore-end -->
 <p><strong>Example:</strong></p>
@@ -5036,14 +5046,14 @@ B-->C[Profit]
 </span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">timelineItem</span> <span class="p">&gt;</span>}}
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">timeline</span> <span class="p">&gt;</span>}}
-</span></span></code></pre></div><ol class="border-l-2 list-none border-primary-500 dark:border-primary-300">
+</span></span></code></pre></div><ol class="border-l-2 border-primary-500 dark:border-primary-300 list-none">
 
 
 
 
 
 
-<li class="list-none">
+<li>
   <div class="flex flex-start">
     <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
       
@@ -5077,9 +5087,9 @@ B-->C[Profit]
         subheader
       </h4>
       
-      <p class="text-gray-700 mb-6">
+      <div class="mb-6">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non magna ex. Donec sollicitudin ut lorem quis lobortis. Nam ac ipsum libero. Sed a ex eget ipsum tincidunt venenatis quis sed nisl. Pellentesque sed urna vel odio consequat tincidunt id ut purus. Nam sollicitudin est sed dui interdum rhoncus. 
-</p>
+</div>
     </div>
   </div>
 </li>
@@ -5091,7 +5101,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non magna ex. D
 
 
 
-<li class="list-none">
+<li>
   <div class="flex flex-start">
     <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
       
@@ -5125,14 +5135,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non magna ex. D
         Awesome Subheader
       </h4>
       
-      <p class="text-gray-700 mb-6">
+      <div class="mb-6">
 With html code
 <ul>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul>
-</p>
+</div>
     </div>
   </div>
 </li>
@@ -5143,7 +5153,7 @@ With html code
 
 
 
-<li class="list-none">
+<li>
   <div class="flex flex-start">
     <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
       
@@ -5172,7 +5182,7 @@ With html code
         
       </div>
       
-      <p class="text-gray-700 mb-6">
+      <div class="mb-6">
 With other shortcodes
 
 
@@ -5187,7 +5197,7 @@ With other shortcodes
   <img src="gallery/07.jpg" class="grid-w33" />
 
 </div>
-</p>
+</div>
     </div>
   </div>
 </li>
@@ -5207,55 +5217,54 @@ With other shortcodes
     </span>        
     
 </h2>
-<p><a href="https://www.typeitjs.com"   target="_blank">
-    TypeIt</a> is the most versatile JavaScript tool for creating typewriter effects on the planet. With a straightforward configuration, it allows you to type single or multiple strings that break lines, delete &amp; replace each other, and it even handles strings that contain complex HTML.</p>
+<p><a href="https://www.typeitjs.com" target="_blank">TypeIt</a> is the most versatile JavaScript tool for creating typewriter effects on the planet. With a straightforward configuration, it allows you to type single or multiple strings that break lines, delete &amp; replace each other, and it even handles strings that contain complex HTML.</p>
 <p>Blowfish implements a sub-set of TypeIt features using a <code>shortcode</code>. Write your text within the <code>typeit</code> shortcode and use the following parameters to configure the behavior you want.</p>
 <!-- prettier-ignore-start -->
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>tag</code></td>
-<td>[String] <code>html</code> tag that will be used to render the strings.</td>
-</tr>
-<tr>
-<td><code>classList</code></td>
-<td>[String] List of <code>css</code> classes to apply to the <code>html</code> element.</td>
-</tr>
-<tr>
-<td><code>initialString</code></td>
-<td>[String] Initial string that will appear written and will be replaced.</td>
-</tr>
-<tr>
-<td><code>speed</code></td>
-<td>[number] Typing speed, measured in milliseconds between each step.</td>
-</tr>
-<tr>
-<td><code>lifeLike</code></td>
-<td>[boolean] Makes the typing pace irregular, as if a real person is doing it.</td>
-</tr>
-<tr>
-<td><code>startDelay</code></td>
-<td>[number] The amount of time before the plugin begins typing after being initialized.</td>
-</tr>
-<tr>
-<td><code>breakLines</code></td>
-<td>[boolean] Whether multiple strings are printed on top of each other (true), or if they&rsquo;re deleted and replaced by each other (false).</td>
-</tr>
-<tr>
-<td><code>waitUntilVisible</code></td>
-<td>[boolean] Determines if the instance will begin when loaded or only when the target element becomes visible in the viewport. The default is <code>true</code></td>
-</tr>
-<tr>
-<td><code>loop</code></td>
-<td>[boolean] Whether your strings will continuously loop after completing</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>tag</code></td>
+          <td>[String] <code>html</code> tag that will be used to render the strings.</td>
+      </tr>
+      <tr>
+          <td><code>classList</code></td>
+          <td>[String] List of <code>css</code> classes to apply to the <code>html</code> element.</td>
+      </tr>
+      <tr>
+          <td><code>initialString</code></td>
+          <td>[String] Initial string that will appear written and will be replaced.</td>
+      </tr>
+      <tr>
+          <td><code>speed</code></td>
+          <td>[number] Typing speed, measured in milliseconds between each step.</td>
+      </tr>
+      <tr>
+          <td><code>lifeLike</code></td>
+          <td>[boolean] Makes the typing pace irregular, as if a real person is doing it.</td>
+      </tr>
+      <tr>
+          <td><code>startDelay</code></td>
+          <td>[number] The amount of time before the plugin begins typing after being initialized.</td>
+      </tr>
+      <tr>
+          <td><code>breakLines</code></td>
+          <td>[boolean] Whether multiple strings are printed on top of each other (true), or if they&rsquo;re deleted and replaced by each other (false).</td>
+      </tr>
+      <tr>
+          <td><code>waitUntilVisible</code></td>
+          <td>[boolean] Determines if the instance will begin when loaded or only when the target element becomes visible in the viewport. The default is <code>true</code></td>
+      </tr>
+      <tr>
+          <td><code>loop</code></td>
+          <td>[boolean] Whether your strings will continuously loop after completing</td>
+      </tr>
+  </tbody>
 </table>
 <!-- prettier-ignore-end -->
 <p><strong>Example 1:</strong></p>
@@ -5267,7 +5276,7 @@ With other shortcodes
 <script>
     document.addEventListener("DOMContentLoaded", function () {
       new TypeIt("#typeit-cb4b21e49446317e359d6518862ea0cc", {
-        strings: ["","Lorem ipsum dolor sit amet",""],
+        strings: ["\r","Lorem ipsum dolor sit amet\r",""],
         speed:  100 ,
         lifeLike:  false ,
         startDelay:  0 ,
@@ -5290,7 +5299,7 @@ With other shortcodes
 <script>
     document.addEventListener("DOMContentLoaded", function () {
       new TypeIt("#typeit-da7ebf09a308e2aa9a7bbf0de8899351", {
-        strings: ["","Lorem ipsum dolor sit amet,","consectetur adipiscing elit.",""],
+        strings: ["\r","Lorem ipsum dolor sit amet,\r","consectetur adipiscing elit.\r",""],
         speed:  100 ,
         lifeLike:  true ,
         startDelay:  0 ,
@@ -5315,7 +5324,7 @@ With other shortcodes
 <script>
     document.addEventListener("DOMContentLoaded", function () {
       new TypeIt("#typeit-b19e998407d302582251b59010158292", {
-        strings: ["","\"Frankly, my dear, I don't give a damn.\" Gone with the Wind (1939)","\"I'm gonna make him an offer he can't refuse.\" The Godfather (1972)","\"Toto, I've a feeling we're not in Kansas anymore.\" The Wizard of Oz (1939)",""],
+        strings: ["\r","\"Frankly, my dear, I don't give a damn.\" Gone with the Wind (1939)\r","\"I'm gonna make him an offer he can't refuse.\" The Godfather (1972)\r","\"Toto, I've a feeling we're not in Kansas anymore.\" The Wizard of Oz (1939)\r",""],
         speed:  50 ,
         lifeLike:  false ,
         startDelay:  0 ,
@@ -5338,26 +5347,25 @@ With other shortcodes
     </span>        
     
 </h2>
-<p>A shortcut to embed youtube videos using the <a href="https://github.com/paulirish/lite-youtube-embed"   target="_blank">
-    lite-youtube-embed</a> library. This library is a lightweight alternative to the standard youtube embeds, and it&rsquo;s designed to be faster and more efficient.</p>
+<p>A shortcut to embed youtube videos using the <a href="https://github.com/paulirish/lite-youtube-embed" target="_blank">lite-youtube-embed</a> library. This library is a lightweight alternative to the standard youtube embeds, and it&rsquo;s designed to be faster and more efficient.</p>
 <!-- prettier-ignore-start -->
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>id</code></td>
-<td>[String] Youtube video id to embed.</td>
-</tr>
-<tr>
-<td><code>label</code></td>
-<td>[String] Label for the video</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>id</code></td>
+          <td>[String] Youtube video id to embed.</td>
+      </tr>
+      <tr>
+          <td><code>label</code></td>
+          <td>[String] Label for the video</td>
+      </tr>
+  </tbody>
 </table>
 <!-- prettier-ignore-end -->
 <p><strong>Example 1:</strong></p>
@@ -5365,6 +5373,9 @@ With other shortcodes
 </span></span></code></pre></div><lite-youtube videoid="SgXhGb-7QbU" playlabel="SgXhGb-7QbU" params=""></lite-youtube>
 
 
+          
+          
+          
         </div>
         
         
@@ -5374,7 +5385,7 @@ With other shortcodes
     
     <summary
         class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
-        Documentation - This article is part of a series.
+        Documentation - この記事は連載の一部です
     </summary>
     
     
@@ -5382,7 +5393,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/welcome/">
-            Part 1: Welcome to Blowfish
+            パート 1: Welcome to Blowfish
         </a>
     </div>
     
@@ -5391,7 +5402,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/installation/">
-            Part 2: Installation
+            パート 2: Installation
         </a>
     </div>
     
@@ -5400,7 +5411,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/getting-started/">
-            Part 3: Getting Started
+            パート 3: Getting Started
         </a>
     </div>
     
@@ -5409,7 +5420,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/configuration/">
-            Part 4: Configuration
+            パート 4: Configuration
         </a>
     </div>
     
@@ -5418,7 +5429,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/homepage-layout/">
-            Part 5: Homepage Layout
+            パート 5: Homepage Layout
         </a>
     </div>
     
@@ -5427,7 +5438,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/thumbnails/">
-            Part 6: Thumbnails
+            パート 6: Thumbnails
         </a>
     </div>
     
@@ -5436,7 +5447,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/front-matter/">
-            Part 7: Front Matter
+            パート 7: Front Matter
         </a>
     </div>
     
@@ -5444,7 +5455,7 @@ With other shortcodes
     
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part 8: This Article
+        パート 8: この記事
     </div>
     
     
@@ -5452,7 +5463,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/partials/">
-            Part 9: Partials
+            パート 9: Partials
         </a>
     </div>
     
@@ -5461,7 +5472,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/multi-author/">
-            Part 10: Multiple Authors
+            パート 10: Multiple Authors
         </a>
     </div>
     
@@ -5470,7 +5481,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/series/">
-            Part 11: Series
+            パート 11: Series
         </a>
     </div>
     
@@ -5479,7 +5490,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/content-examples/">
-            Part 12: Content Examples
+            パート 12: Content Examples
         </a>
     </div>
     
@@ -5488,7 +5499,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/advanced-customisation/">
-            Part 13: Advanced Customisation
+            パート 13: Advanced Customisation
         </a>
     </div>
     
@@ -5497,7 +5508,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/hosting-deployment/">
-            Part 14: Hosting &amp; Deployment
+            パート 14: Hosting &amp; Deployment
         </a>
     </div>
     
@@ -5506,7 +5517,7 @@ With other shortcodes
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="https://localhost:1313/ja/docs/firebase-views/">
-            Part 15: Firebase: Views &amp; Likes
+            パート 15: Firebase: Views &amp; Likes
         </a>
     </div>
     
@@ -5580,8 +5591,8 @@ With other shortcodes
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
       href="https://api.whatsapp.com/send?text=https://localhost:1313/ja/docs/shortcodes/&amp;resubmit=true&amp;title=Shortcodes"
-      title=""
-      aria-label=""
+      title="WhatsAppでシェアする"
+      aria-label="WhatsAppでシェアする"
       >
       
 
@@ -5599,8 +5610,8 @@ With other shortcodes
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
       href="https://t.me/share/url?url=https://localhost:1313/ja/docs/shortcodes/&amp;resubmit=true&amp;title=Shortcodes"
-      title=""
-      aria-label=""
+      title="Telegramでシェアする"
+      aria-label="Telegramでシェアする"
       >
       
 
@@ -5676,7 +5687,7 @@ With other shortcodes
         
 
 
-<h2 class="mt-8 text-2xl font-extrabold mb-10">Related</h2>
+<h2 class="mt-8 text-2xl font-extrabold mb-10">関連記事</h2>
 <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
   
   
@@ -5832,7 +5843,7 @@ With other shortcodes
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/partials/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/partials/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Partials
@@ -5840,7 +5851,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/analytics/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/analytics/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Analytics
@@ -5848,7 +5859,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/privacy/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/privacy/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Privacy
@@ -5856,7 +5867,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/comments/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/comments/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Comments
@@ -5864,7 +5875,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/favicons/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/favicons/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Favicons
@@ -5872,7 +5883,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/icon/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/icon/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Icon
@@ -5880,7 +5891,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Docs
@@ -5895,6 +5906,7 @@ With other shortcodes
 
 
 
+
         </div>
 
         
@@ -5904,6 +5916,7 @@ With other shortcodes
       </div>
     </div>
   </a>
+
   
   
 
@@ -6058,7 +6071,7 @@ With other shortcodes
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/mermaid/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/mermaid/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Mermaid
@@ -6066,7 +6079,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/sample/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Sample
@@ -6074,7 +6087,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/diagram/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/diagram/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Diagram
@@ -6082,7 +6095,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/shortcodes/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/shortcodes/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Shortcodes
@@ -6097,6 +6110,7 @@ With other shortcodes
 
 
 
+
         </div>
 
         
@@ -6106,6 +6120,7 @@ With other shortcodes
       </div>
     </div>
   </a>
+
   
   
 
@@ -6260,7 +6275,7 @@ With other shortcodes
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/front-matter/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/front-matter/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Front Matter
@@ -6268,7 +6283,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/config/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/config/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Config
@@ -6276,7 +6291,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Docs
@@ -6291,6 +6306,7 @@ With other shortcodes
 
 
 
+
         </div>
 
         
@@ -6300,6 +6316,7 @@ With other shortcodes
       </div>
     </div>
   </a>
+
   
   
 
@@ -6440,7 +6457,7 @@ With other shortcodes
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/authors/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/authors/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Authors
@@ -6448,7 +6465,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/config/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/config/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Config
@@ -6456,7 +6473,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Docs
@@ -6471,6 +6488,7 @@ With other shortcodes
 
 
 
+
         </div>
 
         
@@ -6480,6 +6498,7 @@ With other shortcodes
       </div>
     </div>
   </a>
+
   
   
 
@@ -6634,7 +6653,7 @@ With other shortcodes
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/thumbnail/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/thumbnail/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Thumbnail
@@ -6642,7 +6661,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/config/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/config/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Config
@@ -6650,7 +6669,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Docs
@@ -6665,6 +6684,7 @@ With other shortcodes
 
 
 
+
         </div>
 
         
@@ -6674,6 +6694,7 @@ With other shortcodes
       </div>
     </div>
   </a>
+
   
   
 
@@ -6828,7 +6849,7 @@ With other shortcodes
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/series/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/series/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Series
@@ -6836,7 +6857,7 @@ With other shortcodes
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/ja/tags/docs/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Docs
@@ -6851,6 +6872,7 @@ With other shortcodes
 
 
 
+
         </div>
 
         
@@ -6860,6 +6882,7 @@ With other shortcodes
       </div>
     </div>
   </a>
+
   
 </section>
 
@@ -6885,8 +6908,8 @@ With other shortcodes
       </script>
       
       
-      
       <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+      
   
     </section>
   <footer class="pt-8 max-w-prose print:hidden">
@@ -6973,7 +6996,7 @@ With other shortcodes
         
         <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
           <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/ja/tags/"
-            title="">
+            title="タグ">
             
             タグ
           </a>
@@ -6981,7 +7004,7 @@ With other shortcodes
         
         <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
           <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/ja/authors/"
-            title="">
+            title="著者の分類リストの例">
             
             著者
           </a>
@@ -6996,7 +7019,7 @@ With other shortcodes
     
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      Thita シタ © 2024
+      Thita シタ © 2025
     </p>
     
 
@@ -7028,7 +7051,8 @@ With other shortcodes
   
   <a rel="me" href="https://masto.ai/@blowfish"></a>
   
-</footer><div
+</footer>
+<div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
   data-url="https://localhost:1313/ja/"

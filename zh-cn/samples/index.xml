@@ -6,8 +6,9 @@
     <description>Recent content in 示例 on THITAart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>Thita 希達 © 2024 </copyright>
+    <copyright>Thita 希達 © 2025 </copyright>
     <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://localhost:1313/zh-cn/samples/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>多作者</title>
       <link>https://localhost:1313/zh-cn/samples/multiple-authors/</link>
@@ -34,7 +35,8 @@
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/zh-cn/samples/icons/</guid>
-      <description>Blowfish 内置了许多 FontAwesome 6 中的图标。你可以使用 图标部分或者 图标短代码将</description>
+      <description>&lt;p&gt;Blowfish 内置了许多 &lt;a href=&#34;https://fontawesome.com/icons&#34; target=&#34;_blank&#34;&gt;FontAwesome 6&lt;/a&gt; 中的图标。你可以使用 &lt;a href=&#34;https://localhost:1313/zh-cn/docs/partials/#icon&#34;&gt;图标部分&lt;/a&gt;或者&lt;a href=&#34;https://localhost:1313/zh-cn/docs/shortcodes/#icon&#34;&gt;图标短代码&lt;/a&gt;将这些图标包含在你的网站中。&lt;/p&gt;
+&lt;p&gt;当然，Blowfish 完全支持自定义图标。只需要将自己的 SVG 文件放在 &lt;code&gt;assets/icons/&lt;/code&gt; 目录下即可。图标目录中的任何图标可以在整个主题中使用。为了实现自动填充颜色，每个 SVG 图标源码中必须添加 &lt;code&gt;fill=&amp;quot;currentColor&amp;quot;&lt;/code&gt; 属性。&lt;/p&gt;</description>
       
     </item>
     

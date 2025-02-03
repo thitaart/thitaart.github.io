@@ -6,8 +6,9 @@
     <description>Recent content in Welcome to Blowfish! :tada: on THITAart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <copyright>Thita 希達 © 2024 </copyright>
+    <copyright>Thita 希達 © 2025 </copyright>
     <lastBuildDate>Sun, 08 Aug 9999 00:00:00 +0000</lastBuildDate><atom:link href="https://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Build your homepage using Blowfish and Hugo</title>
       <link>https://localhost:1313/guides/202310-blowfish-tutorial/</link>
@@ -94,7 +95,11 @@
       <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/welcome/</guid>
-      <description>Blowfish is packed with tons of features. The original aim of Blowfish was to develop a theme that was simple and lightweight. The theme is a fork of Congo and expands its initial vision.</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  Blowfish is packed with tons of features.
+&lt;/div&gt;
+
+&lt;p&gt;The original aim of Blowfish was to develop a theme that was simple and lightweight. The theme is a fork of &lt;a target=&#34;_blank&#34; href=&#34;https://github.com/nunocoracao/congo&#34;&gt;Congo&lt;/a&gt; and expands its initial vision.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/welcome/featured.svg" />
     </item>
     
@@ -154,9 +159,21 @@
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/installation/</guid>
-      <description>Simply follow the standard Hugo Quick Start procedure to get up and running quickly.
-Detailed installation instructions can be found below. Instructions for updating the theme are also available.
-Installation # These instructions will get you up and running using Hugo and Blowfish from a completely blank state.</description>
+      <description>&lt;p&gt;Simply follow the standard Hugo &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34; target=&#34;_blank&#34;&gt;Quick Start&lt;/a&gt; procedure to get up and running quickly.&lt;/p&gt;
+&lt;p&gt;Detailed installation instructions can be found below. Instructions for &lt;a href=&#34;#installing-updates&#34;&gt;updating the theme&lt;/a&gt; are also available.&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Installation 
+    &lt;div id=&#34;installation&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#installation&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;These instructions will get you up and running using Hugo and Blowfish from a completely blank state. Most of the dependencies mentioned in this guide can be installed using the package manager of choice for your platform.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/installation/featured.svg" />
     </item>
     
@@ -166,7 +183,62 @@ Installation # These instructions will get you up and running using Hugo and Blo
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/getting-started/</guid>
-      <description>This section assumes you have already installed the Blowfish theme. We just launched a CLI tool to help you get started with Blowfish. It will help you with installation and configuration.</description>
+      <description>&lt;div
+  
+    class=&#34;flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900&#34;
+  &gt;
+
+  &lt;span
+    
+      class=&#34;text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center&#34;
+    &gt;
+
+    
+
+  &lt;span class=&#34;relative block icon&#34;&gt;
+    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z&#34;/&gt;&lt;/svg&gt;
+
+  &lt;/span&gt;
+
+
+  &lt;/span&gt;
+
+  &lt;span
+    
+      class=&#34;dark:text-neutral-300&#34;
+    &gt;This section assumes you have already &lt;a href=&#34;https://localhost:1313/docs/installation/&#34; target=&#34;_blank&#34;&gt;installed the Blowfish theme&lt;/a&gt;.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;/br&gt;
+
+  
+
+
+
+&lt;div
+  
+    class=&#34;flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900&#34;
+  &gt;
+
+  &lt;span
+    
+      class=&#34;text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center&#34;
+    &gt;
+
+    
+
+  &lt;span class=&#34;relative block icon&#34;&gt;
+    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 448 512&#34;&gt;
+&lt;path fill=&#34;currentColor&#34;  d=&#34;M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-2.8-5.6-5.6-11.2-9.8-16.8l-50.6 58.8s-81.4-103.6-87.1-110.6C133.1 243.8 112 273.2 112 306.8C112 375.4 162.6 416 225.7 416z&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+
+
+  &lt;/span&gt;
+
+  &lt;span
+    
+      class=&#34;dark:text-neutral-300&#34;
+    &gt;&lt;p&gt;We just launched a CLI tool to help you get started with Blowfish. It will help you with installation and configuration. Install the CLI tool globally using:&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/getting-started/featured.svg" />
     </item>
     
@@ -176,8 +248,8 @@ Installation # These instructions will get you up and running using Hugo and Blo
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/configuration/</guid>
-      <description>Blowfish is a highly customisable theme and uses some of the latest Hugo features to simplify how it is configured.
-The theme ships with a default configuration that gets you up and running with a basic blog or static website.</description>
+      <description>&lt;p&gt;Blowfish is a highly customisable theme and uses some of the latest Hugo features to simplify how it is configured.&lt;/p&gt;
+&lt;p&gt;The theme ships with a default configuration that gets you up and running with a basic blog or static website.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/configuration/featured.svg" />
     </item>
     
@@ -187,8 +259,8 @@ The theme ships with a default configuration that gets you up and running with a
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/samples/icons/</guid>
-      <description>Blowfish has built-in support for a number of FontAwesome 6 icons. These can be included in your website through either the icon partial or icon shortcode.
-Additionally, custom icons are also fully supported.</description>
+      <description>&lt;p&gt;Blowfish has built-in support for a number of &lt;a href=&#34;https://fontawesome.com/icons&#34; target=&#34;_blank&#34;&gt;FontAwesome 6&lt;/a&gt; icons. These can be included in your website through either the &lt;a href=&#34;https://localhost:1313/docs/partials/#icon&#34;&gt;icon partial&lt;/a&gt; or &lt;a href=&#34;https://localhost:1313/docs/shortcodes/#icon&#34;&gt;icon shortcode&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Additionally, custom icons are also fully supported. Simply provide your own SVG icon assets by placing them in the &lt;code&gt;assets/icons/&lt;/code&gt; directory in the root of your project. Any icons in the icons directory will then be available to use throughout the theme. In order achieve automatic color filling every SVG path needs fill=&amp;ldquo;currentColor&amp;rdquo; XML attribute.&lt;/p&gt;</description>
       
     </item>
     
@@ -198,8 +270,39 @@ Additionally, custom icons are also fully supported.</description>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/users/users/</guid>
-      <description>Real websites that are built with Blowfish. Check the full list in JSON format.
-Blowfish user? To add your site to this list, submit a pull request. </description>
+      <description>&lt;p&gt;Real websites that are built with Blowfish. Check the full list in &lt;a href=&#34;https://localhost:1313/users/users.json&#34;&gt;JSON format&lt;/a&gt;.&lt;/p&gt;
+
+  
+
+
+
+&lt;div
+  
+    class=&#34;flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900&#34;
+  &gt;
+
+  &lt;span
+    
+      class=&#34;text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center&#34;
+    &gt;
+
+    
+
+  &lt;span class=&#34;relative block icon&#34;&gt;
+    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z&#34;/&gt;&lt;/svg&gt;
+
+  &lt;/span&gt;
+
+
+  &lt;/span&gt;
+
+  &lt;span
+    
+      class=&#34;dark:text-neutral-300&#34;
+    &gt;&lt;strong&gt;Blowfish user?&lt;/strong&gt; To add your site to this list, &lt;a href=&#34;https://github.com/nunocoracao/blowfish/blob/main/exampleSite/content/users/users.json&#34; target=&#34;_blank&#34;&gt;submit a pull request&lt;/a&gt;.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;/BR&gt;</description>
       
     </item>
     
@@ -209,7 +312,7 @@ Blowfish user? To add your site to this list, submit a pull request. </descripti
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/homepage-layout/</guid>
-      <description>Blowfish provides a fully flexible homepage layout. There are two main templates to choose from with additional settings to adjust the design. Alternatively, you can also provide your own template and have complete control over the homepage content.</description>
+      <description>&lt;p&gt;Blowfish provides a fully flexible homepage layout. There are two main templates to choose from with additional settings to adjust the design. Alternatively, you can also provide your own template and have complete control over the homepage content.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/homepage-layout/featured.svg" />
     </item>
     
@@ -219,8 +322,20 @@ Blowfish user? To add your site to this list, submit a pull request. </descripti
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/shortcodes/</guid>
-      <description>In addition to all the default Hugo shortcodes, Blowfish adds a few extras for additional functionality.
-Alert # alert outputs its contents as a stylised message box within your article. It&amp;rsquo;s useful for drawing attention to important information that you don&amp;rsquo;t want the reader to miss.</description>
+      <description>&lt;p&gt;In addition to all the &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34; target=&#34;_blank&#34;&gt;default Hugo shortcodes&lt;/a&gt;, Blowfish adds a few extras for additional functionality.&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Alert 
+    &lt;div id=&#34;alert&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#alert&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;alert&lt;/code&gt; outputs its contents as a stylised message box within your article. It&amp;rsquo;s useful for drawing attention to important information that you don&amp;rsquo;t want the reader to miss.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/shortcodes/featured.svg" />
     </item>
     
@@ -230,7 +345,7 @@ Alert # alert outputs its contents as a stylised message box within your article
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/front-matter/</guid>
-      <description>In addition to the default Hugo front matter parameters, Blowfish adds a number of additional options to customise the presentation of individual articles. All the available theme front matter parameters are listed below.</description>
+      <description>&lt;p&gt;In addition to the &lt;a href=&#34;https://gohugo.io/content-management/front-matter/#front-matter-variables&#34; target=&#34;_blank&#34;&gt;default Hugo front matter parameters&lt;/a&gt;, Blowfish adds a number of additional options to customise the presentation of individual articles. All the available theme front matter parameters are listed below.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/front-matter/featured.svg" />
     </item>
     
@@ -240,7 +355,7 @@ Alert # alert outputs its contents as a stylised message box within your article
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/multi-author/</guid>
-      <description>Some websites have more than one author contributing with content and therefore require more than a single default author across the entire website. For those use-cases, Blowfish allows users to extend the list of authors using the multiple authors feature.</description>
+      <description>&lt;p&gt;Some websites have more than one author contributing with content and therefore require more than a single default author across the entire website. For those use-cases, Blowfish allows users to extend the list of authors using the multiple authors feature.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/multi-author/featured.svg" />
     </item>
     
@@ -250,8 +365,17 @@ Alert # alert outputs its contents as a stylised message box within your article
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/partials/</guid>
-      <description>Analytics # Blowfish provides built-in support for Fathom Analytics, Google Analytics annd Umami Analytics. Fathom is a paid alternative to Google Analytics that respects user privacy.
-Fathom Analytics # To enable Fathom Analytics support, simply provide your Fathom site code in the config/_default/params.</description>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Analytics 
+    &lt;div id=&#34;analytics&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#analytics&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Blowfish provides built-in support for Fathom Analytics, Google Analytics annd Umami Analytics. Fathom is a paid alternative to Google Analytics that respects user privacy.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/partials/featured.svg" />
     </item>
     
@@ -261,7 +385,17 @@ Fathom Analytics # To enable Fathom Analytics support, simply provide your Fatho
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/thumbnails/</guid>
-      <description>Thumbnails # Blowfish was enhanced in order to make it easy to add visual support to your posts. To do so, you just need to place an image file (almost all formats are supported but we recommend .</description>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Thumbnails 
+    &lt;div id=&#34;thumbnails&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#thumbnails&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Blowfish was enhanced in order to make it easy to add visual support to your posts. To do so, you just need to place an image file (almost all formats are supported but we recommend &lt;code&gt;.png&lt;/code&gt; or &lt;code&gt;.jpg&lt;/code&gt;) that starts with &lt;code&gt;feature*&lt;/code&gt; inside your article&amp;rsquo;s main directory, as shown in the example below.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/thumbnails/featured.svg" />
     </item>
     
@@ -271,7 +405,7 @@ Fathom Analytics # To enable Fathom Analytics support, simply provide your Fatho
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/content-examples/</guid>
-      <description>If you&amp;rsquo;ve been reading the documentation in order, you should now know about all the features and configurations available in Blowfish. This page is designed to pull everything together and offer some worked examples that you might like to use in your Hugo project.</description>
+      <description>&lt;p&gt;If you&amp;rsquo;ve been reading the documentation in order, you should now know about all the features and configurations available in Blowfish. This page is designed to pull everything together and offer some worked examples that you might like to use in your Hugo project.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/content-examples/featured.svg" />
     </item>
     
@@ -281,7 +415,7 @@ Fathom Analytics # To enable Fathom Analytics support, simply provide your Fatho
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/series/</guid>
-      <description>Blowfish provides a feature to group a set of articles together under a &amp;ldquo;series&amp;rdquo;. Placing an article under a series will display the rest of the series articles in each single page and provide a quick way to navigate amongst them.</description>
+      <description>&lt;p&gt;Blowfish provides a feature to group a set of articles together under a &amp;ldquo;series&amp;rdquo;. Placing an article under a series will display the rest of the series articles in each single page and provide a quick way to navigate amongst them. You can see an example of this above.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/series/featured.svg" />
     </item>
     
@@ -291,7 +425,7 @@ Fathom Analytics # To enable Fathom Analytics support, simply provide your Fatho
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/advanced-customisation/</guid>
-      <description>There are many ways you can make advanced changes to Blowfish. Read below to learn more about what can be customised and the best way of achieving your desired result.</description>
+      <description>&lt;p&gt;There are many ways you can make advanced changes to Blowfish. Read below to learn more about what can be customised and the best way of achieving your desired result.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/advanced-customisation/featured.svg" />
     </item>
     
@@ -301,8 +435,8 @@ Fathom Analytics # To enable Fathom Analytics support, simply provide your Fatho
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/hosting-deployment/</guid>
-      <description>There are many ways to deploy your Hugo website built with Blowfish. The theme is designed to be flexible in almost any deployment scenario.
-Blowfish is built using relative URLs throughout the theme.</description>
+      <description>&lt;p&gt;There are many ways to deploy your Hugo website built with Blowfish. The theme is designed to be flexible in almost any deployment scenario.&lt;/p&gt;
+&lt;p&gt;Blowfish is built using relative URLs throughout the theme. This enables sites to easily be deployed to sub-folders and hosts like GitHub Pages. There&amp;rsquo;s usually no special configuration required for this to work as long as the &lt;code&gt;baseURL&lt;/code&gt; parameter has been configured in the &lt;code&gt;config.toml&lt;/code&gt; file.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/hosting-deployment/featured.svg" />
     </item>
     
@@ -312,7 +446,7 @@ Blowfish is built using relative URLs throughout the theme.</description>
       <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/firebase-views/</guid>
-      <description>In order to be able to support dynamic data across your website we&amp;rsquo;ve added the support to integrate Firebase. This will allow you to use the views feature across lists and posts.</description>
+      <description>&lt;p&gt;In order to be able to support dynamic data across your website we&amp;rsquo;ve added the support to integrate Firebase. This will allow you to use the views feature across lists and posts.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/firebase-views/featured.svg" />
     </item>
     
@@ -392,8 +526,20 @@ Blowfish is built using relative URLs throughout the theme.</description>
       <pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/guides/template/</guid>
-      <description>Thank you for wanting to contribute to Blowfish&amp;rsquo;s community.
-How to start? # This is a template article that will explain how to create a new article for Blowfish&amp;rsquo;s guide section.</description>
+      <description>&lt;p&gt;Thank you for wanting to contribute to Blowfish&amp;rsquo;s community.&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;How to start? 
+    &lt;div id=&#34;how-to-start&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#how-to-start&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;This is a template article that will explain how to create a new article for Blowfish&amp;rsquo;s guide section.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/template/featured.jpg" />
     </item>
     
@@ -403,7 +549,7 @@ How to start? # This is a template article that will explain how to create a new
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/tags/advanced/_index.it/</guid>
-      <description>This is the advanced tag. Just like other listing pages in Blowfish, you can add custom content to individual taxonomy terms and it will be displayed at the top of the term listing.</description>
+      <description>&lt;p&gt;This is the advanced tag. Just like other listing pages in Blowfish, you can add custom content to individual taxonomy terms and it will be displayed at the top of the term listing. :rocket:&lt;/p&gt;</description>
       
     </item>
     
@@ -413,7 +559,29 @@ How to start? # This is a template article that will explain how to create a new
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/_index.it/</guid>
-      <description> Questa è una demo del layout background. Cambia layout &amp;orarr; npx blowfish-tools </description>
+      <description>&lt;div class=&#34;flex px-4 py-2 mb-8 text-base rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+  &lt;span class=&#34;flex items-center ltr:pr-3 rtl:pl-3 text-primary-400&#34;&gt;
+    
+    
+      &lt;span class=&#34;relative inline-block align-text-bottom icon&#34;&gt;
+        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z&#34;/&gt;&lt;/svg&gt;
+    
+      &lt;/span&gt;
+    
+
+  &lt;/span&gt;
+  &lt;span class=&#34;flex items-center justify-between grow dark:text-neutral-300&#34;&gt;
+    &lt;span class=&#34;prose dark:prose-invert&#34;&gt;Questa è una demo del layout &lt;code id=&#34;layout&#34;&gt;background&lt;/code&gt;.&lt;/span&gt;
+    &lt;pulsante
+      id=&#34;interruttore-layout-pulsante&#34;
+      class=&#34;px-4 !text-neutral !no-underline round-md bg-primary-600 hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+    &gt;
+      Cambia layout &amp;orarr;
+    &lt;/pulsante&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-node&#34; data-lang=&#34;node&#34;&gt;npx blowfish-tools
+&lt;/code&gt;&lt;/pre&gt;&lt;lite-youtube videoid=&#34;SgXhGb-7QbU&#34; playlabel=&#34;SgXhGb-7QbU&#34; params=&#34;&#34;&gt;&lt;/lite-youtube&gt;</description>
       
     </item>
     
@@ -423,7 +591,11 @@ How to start? # This is a template article that will explain how to create a new
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/samples/_index.it/</guid>
-      <description>Blowfish dà vita ai tuoi contenuti. :heart_eyes: Questa sezione contiene alcune pagine demo che mostrano come Blowfish esegue il rendering di diversi tipi di contenuto. Puoi anche vedere una pagina di esempio elenco tassonomia.</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  Blowfish dà vita ai tuoi contenuti. :heart_eyes:
+&lt;/div&gt;
+
+&lt;p&gt;Questa sezione contiene alcune pagine demo che mostrano come Blowfish esegue il rendering di diversi tipi di contenuto. Puoi anche vedere una pagina di esempio &lt;a href=&#34;https://localhost:1313/tags/&#34;&gt;elenco tassonomia&lt;/a&gt;.&lt;/p&gt;</description>
       
     </item>
     
@@ -433,7 +605,11 @@ How to start? # This is a template article that will explain how to create a new
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/_index.it/</guid>
-      <description>Semplice ma potente. Scopri come utilizzare Blowfish e le sue funzionalità. Questa sezione contiene tutto ciò che devi sapere su Blowfish. Se sei nuovo, consulta la guida Installazione per iniziare o visita la sezione Esempi per vedere cosa può fare Blowfish.</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  Semplice ma potente. Scopri come utilizzare Blowfish e le sue funzionalità.
+&lt;/div&gt;
+
+&lt;p&gt;Questa sezione contiene tutto ciò che devi sapere su Blowfish. Se sei nuovo, consulta la guida &lt;a href=&#34;https://localhost:1313/docs/installation/&#34;&gt;Installazione&lt;/a&gt; per iniziare o visita la sezione &lt;a href=&#34;https://localhost:1313/samples/&#34;&gt;Esempi&lt;/a&gt; per vedere cosa può fare Blowfish.&lt;/p&gt;</description>
       
     </item>
     
@@ -443,7 +619,7 @@ How to start? # This is a template article that will explain how to create a new
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/authors/_index.it/</guid>
-      <description>Un rapido esempio di come iniziare a utilizzare le tassonomie degli autori nei tuoi articoli.</description>
+      <description>&lt;p&gt;Un rapido esempio di come iniziare a utilizzare le tassonomie degli autori nei tuoi articoli.&lt;/p&gt;</description>
       
     </item>
     
@@ -453,7 +629,7 @@ How to start? # This is a template article that will explain how to create a new
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/authors/nunocoracao/_index.it/</guid>
-      <description>La fantastica biografia di Nuno.</description>
+      <description>&lt;p&gt;La fantastica biografia di Nuno.&lt;/p&gt;</description>
       
     </item>
     
@@ -463,8 +639,12 @@ How to start? # This is a template article that will explain how to create a new
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/guides/_index.it/</guid>
-      <description>Recipes, guides, and tutorials for Blowfish Blowfish user? To add your guide to this list, check the template.
-This section contains guides for a variety of scenarios on how to configure your theme.</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  Recipes, guides, and tutorials for Blowfish
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Blowfish user?&lt;/strong&gt; To add your guide to this list, &lt;a href=&#34;https://localhost:1313/guides/template/&#34;&gt;check the template&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This section contains guides for a variety of scenarios on how to configure your theme. If you&amp;rsquo;re new, check out the &lt;a href=&#34;https://localhost:1313/docs/installation/&#34;&gt;Installation&lt;/a&gt; guide to begin or visit the &lt;a href=&#34;https://localhost:1313/samples/&#34;&gt;Samples&lt;/a&gt; section to see what Blowfish can do.&lt;/p&gt;</description>
       
     </item>
     
@@ -474,7 +654,7 @@ This section contains guides for a variety of scenarios on how to configure your
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/authors/secondauthor/_index.it/</guid>
-      <description>La fantastica biografia fittizia di Dummy Second Author.</description>
+      <description>&lt;p&gt;La fantastica biografia fittizia di Dummy Second Author.&lt;/p&gt;</description>
       
     </item>
     
@@ -484,7 +664,12 @@ This section contains guides for a variety of scenarios on how to configure your
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/examples/_index.it/</guid>
-      <description>See what&amp;rsquo;s possible with Blowfish. This section contains links to example templates and pages created using Blowfish to get you inspired.</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  See what&amp;rsquo;s possible with Blowfish.
+&lt;/div&gt;
+
+&lt;p&gt;This section contains links to example templates and pages created using Blowfish to get you inspired.&lt;/p&gt;
+&lt;hr&gt;</description>
       
     </item>
     
@@ -494,7 +679,7 @@ This section contains guides for a variety of scenarios on how to configure your
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/tags/_index.it/</guid>
-      <description>Blowfish ha il pieno supporto per le tassonomie Hugo e si adatterà a qualsiasi impostazione tassonomica. Gli elenchi di tassonomia come questo supportano anche il contenuto personalizzato da visualizzare sopra l&amp;rsquo;elenco dei termini.</description>
+      <description>&lt;p&gt;Blowfish ha il pieno supporto per le tassonomie Hugo e si adatterà a qualsiasi impostazione tassonomica. Gli elenchi di tassonomia come questo supportano anche il contenuto personalizzato da visualizzare sopra l&amp;rsquo;elenco dei termini.&lt;/p&gt;</description>
       
     </item>
     

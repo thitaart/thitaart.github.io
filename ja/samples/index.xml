@@ -6,8 +6,9 @@
     <description>Recent content in サンプル on THITAart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <copyright>Thita シタ © 2024 </copyright>
+    <copyright>Thita シタ © 2025 </copyright>
     <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://localhost:1313/ja/samples/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>複数人の著者</title>
       <link>https://localhost:1313/ja/samples/multiple-authors/</link>
@@ -34,7 +35,7 @@
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/ja/samples/icons/</guid>
-      <description>Blowfish はいくつもの FontAwesome 6 のアイコンを組み込み、サポートしています。</description>
+      <description>&lt;p&gt;Blowfish はいくつもの &lt;a href=&#34;https://fontawesome.com/icons&#34; target=&#34;_blank&#34;&gt;FontAwesome 6&lt;/a&gt; のアイコンを組み込み、サポートしています。これらは&lt;a href=&#34;https://localhost:1313/ja/docs/partials/#icon&#34;&gt;アイコンパーシャル&lt;/a&gt;または&lt;a href=&#34;https://localhost:1313/ja/docs/shortcodes/#icon&#34;&gt;アイコンショートコード&lt;/a&gt;のどちらかを利用してウェブサイトに含めることが出来ます。&lt;/p&gt;</description>
       
     </item>
     

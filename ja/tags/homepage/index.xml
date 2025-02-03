@@ -6,15 +6,16 @@
     <description>Recent content in Homepage on THITAart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <copyright>Thita シタ © 2024 </copyright>
+    <copyright>Thita シタ © 2025 </copyright>
     <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://localhost:1313/ja/tags/homepage/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Homepage Layout</title>
       <link>https://localhost:1313/ja/docs/homepage-layout/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/ja/docs/homepage-layout/</guid>
-      <description>Blowfish provides a fully flexible homepage layout. There are two main templates to choose from with additional settings to adjust the design. Alternatively, you can also provide your own template and have complete control over the homepage content.</description>
+      <description>&lt;p&gt;Blowfish provides a fully flexible homepage layout. There are two main templates to choose from with additional settings to adjust the design. Alternatively, you can also provide your own template and have complete control over the homepage content.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/homepage-layout/featured.svg" />
     </item>
     

@@ -6,15 +6,16 @@
     <description>Recent content in 托管 on THITAart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>Thita 希達 © 2024 </copyright>
+    <copyright>Thita 希達 © 2025 </copyright>
     <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://localhost:1313/zh-cn/tags/%E6%89%98%E7%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>托管和部署</title>
       <link>https://localhost:1313/zh-cn/docs/hosting-deployment/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/zh-cn/docs/hosting-deployment/</guid>
-      <description>有许多方法可以部署基于 Blowfish 主题的 Hugo 网站。这个主题几乎在任何部署</description>
+      <description>&lt;p&gt;有许多方法可以部署基于 Blowfish 主题的 Hugo 网站。这个主题几乎在任何部署场景中都很灵活。&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/hosting-deployment/featured.svg" />
     </item>
     
