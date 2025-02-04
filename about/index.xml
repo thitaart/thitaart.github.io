@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on THITAart</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on THITAart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <copyright>Thita 希達 © 2025 </copyright>
+    <lastBuildDate>Tue, 04 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>關於THITAart與Thita 希達</title>
+      <link>http://localhost:1313/about/thitaart-thita/thitaart-thita/</link>
+      <pubDate>Tue, 04 Feb 2025 10:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/about/thitaart-thita/thitaart-thita/</guid>
+      <description>&lt;p&gt;嗨！我是 Thita 希達，&lt;br&gt;
+熱愛美術、漫畫、3D與遊戲，是一名數位創作者。&lt;br&gt;
+這個網站，THITAart，是我整理經驗、資源與作品的地方，若能幫助你：&lt;br&gt;
+　　- 找到最適合的學習資源&lt;br&gt;
+　　- 避開我曾繞過的彎路&lt;br&gt;
+　　- 更清楚地架構你的創作方向&lt;br&gt;
+那就太好了！&lt;br&gt;
+&lt;br&gt;
+　{{/* //放圖：Sig &lt;em&gt;/}}
+&lt;br&gt;
+一路走來，我對美術創作既熱愛又迷惘，在現實條件與創作理想之間，總是不斷掙扎。&lt;br&gt;
+從升學考生、設計系大學生、日商遊戲公司3D美術、多媒系研究生、臺日漫畫合作、接案，到架設THITAart網站，總體來說，成為了一名多媒體創作者。從自學、升學、業界到創作，我踩過不少坑，犯過不可思議的傻，但也找到許多寶藏資源，並從中受益匪淺。&lt;br&gt;
+　　{{/&lt;/em&gt; //各種資源，我做的素體 &lt;em&gt;/}}
+&lt;br&gt;
+如果你對數位創作感興趣，或在學習、轉職、創作過程中遇到困惑，THITAart網站匯集了我認真篩選的實用工具、創作建議與學習心得和，願它們能為你的創作旅程帶來一些幫助！&lt;br&gt;
+　　{{/&lt;/em&gt; //主圖場景 */}}&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
