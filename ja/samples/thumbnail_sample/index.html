@@ -26,8 +26,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.0a5c179d65d8798755c4c2ed8354c5011ca0cbbf83044f1481706ae96b2884896e8aeff6828e2bae188ffbdb7555e9b4edd64bdff3174732b2a86228e2c4aa61.css"
-    integrity="sha512-ClwXnWXYeYdVxMLtg1TFARygy7&#43;DBE8UgXBq6WsohIluiu/2go4rrhiP&#43;9t1Vem07dZL3/MXRzKyqGIo4sSqYQ==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.f860f65c0e0488008ff9571f9104fe0e43c10614d153cd7625a3df06522ebfb2cf4f2a2a9c2439a9229a3a7bca8f2f7a100af1b0af8c379a8ba3fc51787a3e66.css"
+    integrity="sha512-&#43;GD2XA4EiACP&#43;VcfkQT&#43;DkPBBhTRU812JaPfBlIuv7LPTyoqnCQ5qSKaOnvKjy96EArxsK&#43;MN5qLo/xReHo&#43;Zg==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -1047,10 +1047,44 @@
     
 
     
-      
-      
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+    
+
+      <div class="min-w-0 min-h-0 max-w-fit">
         
         
+
+
+        <div class="article-content max-w-prose mb-20">
+          <p>記事でどのようにサムネイルを利用するかの簡単な例です。</p>
+<p>記事の平均的なディレクトリが以下のようなものだとしたら:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">content
+</span></span><span class="line"><span class="cl">└── awesome_article.md
+</span></span></code></pre></div><p>単一の markdown ファイルから、フォルダーに入っている形式に変更する必要があります。記事の名前と同一のディレクトリを作成し、その中に <code>index.md</code> ファイルを作成します。このようにすると、以下のような構成になります。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">content
+</span></span><span class="line"><span class="cl">└── awesome_article
+</span></span><span class="line"><span class="cl">    └── featured.png
+</span></span></code></pre></div><p>記事内に <code>feature*</code> から始まる名前の画像ファイル (ほとんど全てのフォーマットを対応していますが、 <code>.png</code> か <code>.jpg</code> を推奨しています) を追加できます。以下が例です。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">content
+</span></span><span class="line"><span class="cl">└── awesome_article
+</span></span><span class="line"><span class="cl">    ├── index.md
+</span></span><span class="line"><span class="cl">    └── featured.png
+</span></span></code></pre></div><p>これによって Blowfish は、記事のサムネイルをウェブサイトまたは SNS の <a target="_blank" href="https://oembed.com/">oEmbed</a> カードの紹介画像として利用できます。例としては、この記事の URL を oEmbeds を表示するプラットフォーム (例: Twitter, WhatsApp, Telegram など) にコピーペーストどのように表示されるかをご覧ください。</p>
+
+          
+          
+          
+        </div>
+        
+        
+
+          
+            
+            
 <div class="flex author">
   
     
@@ -1121,48 +1155,14 @@
   </div>
 </div>
 
-      
-
-      
-
-      
-      <div class="mb-5"></div>
-      
-
-    
-
-  </header>
-  
-  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
-    
-    
-
-      <div class="min-w-0 min-h-0 max-w-fit">
-        
-        
-
-
-        <div class="article-content max-w-prose mb-20">
-          <p>記事でどのようにサムネイルを利用するかの簡単な例です。</p>
-<p>記事の平均的なディレクトリが以下のようなものだとしたら:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">content
-</span></span><span class="line"><span class="cl">└── awesome_article.md
-</span></span></code></pre></div><p>単一の markdown ファイルから、フォルダーに入っている形式に変更する必要があります。記事の名前と同一のディレクトリを作成し、その中に <code>index.md</code> ファイルを作成します。このようにすると、以下のような構成になります。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">content
-</span></span><span class="line"><span class="cl">└── awesome_article
-</span></span><span class="line"><span class="cl">    └── featured.png
-</span></span></code></pre></div><p>記事内に <code>feature*</code> から始まる名前の画像ファイル (ほとんど全てのフォーマットを対応していますが、 <code>.png</code> か <code>.jpg</code> を推奨しています) を追加できます。以下が例です。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">content
-</span></span><span class="line"><span class="cl">└── awesome_article
-</span></span><span class="line"><span class="cl">    ├── index.md
-</span></span><span class="line"><span class="cl">    └── featured.png
-</span></span></code></pre></div><p>これによって Blowfish は、記事のサムネイルをウェブサイトまたは SNS の <a target="_blank" href="https://oembed.com/">oEmbed</a> カードの紹介画像として利用できます。例としては、この記事の URL を oEmbeds を表示するプラットフォーム (例: Twitter, WhatsApp, Telegram など) にコピーペーストどのように表示されるかをご覧ください。</p>
+          
 
           
+
           
+          <div class="mb-10"></div>
           
-        </div>
-        
+
         
 
         
