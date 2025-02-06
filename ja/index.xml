@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blowfish へようこそ! :tada: on THITAart</title>
+    <title>THITAart</title>
     <link>http://localhost:1313/ja/</link>
-    <description>Recent content in Blowfish へようこそ! :tada: on THITAart</description>
+    <description>Recent content on THITAart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Thita シタ © 2025 </copyright>
     <lastBuildDate>Tue, 04 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/ja/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>THITAartとThitaについて</title>
-      <link>http://localhost:1313/ja/about/thitaart-thita/thitaart-thita/</link>
-      <pubDate>Tue, 04 Feb 2025 10:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/ja/about/thitaart-thita/thitaart-thita/</guid>
-      <description>&lt;p&gt;こんにちは!私は Thitaです。&lt;br&gt;
-美術、漫画、3D、ゲームが好きで、デジタルクリエイターです。&lt;br&gt;
-このウェブサイト、THITAartは、経験、リソース、作品をまとめた場所です。もし、このサイトがあなたの役に立つなら:&lt;br&gt;&lt;/p&gt;</description>
-      
-    </item>
     
     <item>
       <title>Build your homepage using Blowfish and Hugo</title>

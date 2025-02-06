@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on THITAart</title>
+    <title>Thita希达 on THITAart</title>
     <link>http://localhost:1313/zh-cn/about/</link>
-    <description>Recent content in Abouts on THITAart</description>
+    <description>Recent content in Thita希达 on THITAart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Thita 希達 © 2025 </copyright>
     <lastBuildDate>Tue, 04 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/about/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>关于THITAart与Thita 希达</title>
-      <link>http://localhost:1313/zh-cn/about/thitaart-thita/thitaart-thita/</link>
-      <pubDate>Tue, 04 Feb 2025 10:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/zh-cn/about/thitaart-thita/thitaart-thita/</guid>
-      <description>&lt;p&gt;嗨！我是 Thita 希达，&lt;br&gt;
-热爱美术、漫画、3D与游戏，是一名数位创作者。&lt;br&gt;
-这个网站，THITAart，是我整理经验、资源与作品的地方，若能帮助你：&lt;br&gt;
-　　- 找到最适合的学习资源&lt;br&gt;
-　　- 避开我曾绕过的弯路&lt;br&gt;
-　　- 更清楚地架构你的创作方向&lt;br&gt;
-那就太好了！&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;</description>
-      
-    </item>
     
   </channel>
 </rss>

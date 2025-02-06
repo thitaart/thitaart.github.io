@@ -3,19 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/zh-cn/</loc>
+    <lastmod>2025-02-04T10:00:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-tw"
+      href="http://localhost:1313/zh-tw/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="ja"
+      href="http://localhost:1313/ja/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="http://localhost:1313/zh-cn/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/zh-cn/about/</loc>
     <lastmod>2025-02-04T10:00:00+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/about/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/about/"
+      hreflang="zh-tw"
+      href="http://localhost:1313/zh-tw/about/"
     />
     <xhtml:link
       rel="alternate"
@@ -35,6 +61,11 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/tags/%E5%85%B3%E4%BA%8E/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="ja"
       href="http://localhost:1313/ja/tags/%E5%85%B3%E4%BA%8E/"
     />
@@ -45,71 +76,19 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/zh-cn/about/thitaart-thita/thitaart-thita/</loc>
-    <lastmod>2025-02-04T10:00:00+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-tw"
-      href="http://localhost:1313/about/thitaart-thita/thitaart-thita/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/about/thitaart-thita/thitaart-thita/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="http://localhost:1313/ja/about/thitaart-thita/thitaart-thita/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/about/thitaart-thita/thitaart-thita/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/zh-cn/</loc>
-    <lastmod>2025-02-04T10:00:00+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-tw"
-      href="http://localhost:1313/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="http://localhost:1313/ja/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/"
-    />
-  </url>
-  <url>
     <loc>http://localhost:1313/zh-cn/tags/</loc>
     <lastmod>2025-02-04T10:00:00+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/tags/"
+      hreflang="zh-tw"
+      href="http://localhost:1313/zh-tw/tags/"
     />
     <xhtml:link
       rel="alternate"
@@ -129,7 +108,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/blowfish/"
     />
     <xhtml:link
@@ -150,7 +129,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/categories/blowfish/"
     />
     <xhtml:link
@@ -171,13 +150,13 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/categories/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/categories/"
+      hreflang="zh-tw"
+      href="http://localhost:1313/zh-tw/categories/"
     />
     <xhtml:link
       rel="alternate"
@@ -197,7 +176,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/hugo/"
     />
     <xhtml:link
@@ -218,7 +197,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/authors/nunocoracao/"
     />
     <xhtml:link
@@ -233,25 +212,19 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/zh-cn/categories/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2023-10-04T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/zh-cn/authors/</loc>
     <lastmod>2023-10-04T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/authors/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/authors/"
+      hreflang="zh-tw"
+      href="http://localhost:1313/zh-tw/authors/"
     />
     <xhtml:link
       rel="alternate"
@@ -271,7 +244,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/guides/"
     />
     <xhtml:link
@@ -286,6 +259,12 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/zh-cn/categories/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2023-10-04T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/zh-cn/tags/%E6%8C%87%E5%8D%97/</loc>
     <lastmod>2023-10-04T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -298,7 +277,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/authors/secondauthor/"
     />
     <xhtml:link
@@ -310,6 +289,33 @@
       rel="alternate"
       hreflang="zh-cn"
       href="http://localhost:1313/zh-cn/authors/secondauthor/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh-cn/tags/%E4%BD%9C%E8%80%85/</loc>
+    <lastmod>2022-10-12T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh-cn/samples/multiple-authors/</loc>
+    <lastmod>2022-10-12T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/samples/multiple-authors/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="ja"
+      href="http://localhost:1313/ja/samples/multiple-authors/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="http://localhost:1313/zh-cn/samples/multiple-authors/"
     />
   </url>
   <url>
@@ -325,7 +331,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/samples/"
     />
     <xhtml:link
@@ -340,33 +346,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/zh-cn/samples/multiple-authors/</loc>
-    <lastmod>2022-10-12T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-tw"
-      href="http://localhost:1313/samples/multiple-authors/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="http://localhost:1313/ja/samples/multiple-authors/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/samples/multiple-authors/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/zh-cn/tags/%E4%BD%9C%E8%80%85/</loc>
-    <lastmod>2022-10-12T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/zh-cn/tags/%E7%BC%A9%E7%95%A5%E5%9B%BE/</loc>
     <lastmod>2022-09-26T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -379,7 +358,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/samples/thumbnail_sample/"
     />
     <xhtml:link
@@ -400,13 +379,13 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/series/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/series/"
+      hreflang="zh-tw"
+      href="http://localhost:1313/zh-tw/series/"
     />
     <xhtml:link
       rel="alternate"
@@ -432,7 +411,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/"
     />
     <xhtml:link
@@ -447,13 +426,19 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/zh-cn/tags/%E6%96%B0%E6%89%8B/</loc>
+    <lastmod>2022-01-19T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/zh-cn/docs/welcome/</loc>
     <lastmod>2022-01-19T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/welcome/"
     />
     <xhtml:link
@@ -474,12 +459,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/zh-cn/tags/%E6%96%B0%E6%89%8B/</loc>
-    <lastmod>2022-01-19T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/zh-cn/tags/%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -492,7 +471,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/installation/"
     />
     <xhtml:link
@@ -513,7 +492,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/getting-started/"
     />
     <xhtml:link
@@ -540,7 +519,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/samples/icons/"
     />
     <xhtml:link
@@ -555,6 +534,12 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/zh-cn/tags/%E7%AE%80%E7%A0%81/</loc>
+    <lastmod>2022-03-09T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/zh-cn/tags/%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -567,7 +552,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/configuration/"
     />
     <xhtml:link
@@ -582,12 +567,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/zh-cn/tags/%E7%AE%80%E7%A0%81/</loc>
-    <lastmod>2022-03-09T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/zh-cn/tags/%E4%B8%BB%E9%A1%B5/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -600,7 +579,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/homepage-layout/"
     />
     <xhtml:link
@@ -627,7 +606,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/docs/"
     />
     <xhtml:link
@@ -648,7 +627,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/lead/"
     />
     <xhtml:link
@@ -669,7 +648,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/mermaid/"
     />
     <xhtml:link
@@ -690,7 +669,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/shortcodes/"
     />
     <xhtml:link
@@ -711,7 +690,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/front-matter/"
     />
     <xhtml:link
@@ -732,7 +711,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/front-matter/"
     />
     <xhtml:link
@@ -753,7 +732,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/partials/"
     />
     <xhtml:link
@@ -774,7 +753,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/partials/"
     />
     <xhtml:link
@@ -795,7 +774,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/multi-author/"
     />
     <xhtml:link
@@ -807,6 +786,33 @@
       rel="alternate"
       hreflang="zh-cn"
       href="http://localhost:1313/zh-cn/docs/multi-author/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh-cn/tags/%E7%BB%9F%E8%AE%A1%E6%9C%8D%E5%8A%A1/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh-cn/docs/thumbnails/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/docs/thumbnails/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="ja"
+      href="http://localhost:1313/ja/docs/thumbnails/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="http://localhost:1313/zh-cn/docs/thumbnails/"
     />
   </url>
   <url>
@@ -822,37 +828,10 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/zh-cn/tags/%E7%BB%9F%E8%AE%A1%E6%9C%8D%E5%8A%A1/</loc>
-    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/zh-cn/tags/%E9%9A%90%E7%A7%81/</loc>
     <lastmod>2020-08-10T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/zh-cn/docs/thumbnails/</loc>
-    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-tw"
-      href="http://localhost:1313/docs/thumbnails/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="http://localhost:1313/ja/docs/thumbnails/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/docs/thumbnails/"
-    />
   </url>
   <url>
     <loc>http://localhost:1313/zh-cn/tags/%E5%86%85%E5%AE%B9/</loc>
@@ -867,7 +846,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/content-examples/"
     />
     <xhtml:link
@@ -894,7 +873,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/series/"
     />
     <xhtml:link
@@ -915,7 +894,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/css/"
     />
     <xhtml:link
@@ -936,7 +915,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/advanced-customisation/"
     />
     <xhtml:link
@@ -963,7 +942,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/github/"
     />
     <xhtml:link
@@ -984,7 +963,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/netlify/"
     />
     <xhtml:link
@@ -1011,7 +990,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/hosting-deployment/"
     />
     <xhtml:link
@@ -1026,13 +1005,13 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/zh-cn/tags/%E9%83%A8%E7%BD%B2/</loc>
+    <loc>http://localhost:1313/zh-cn/tags/%E6%B8%B2%E6%9F%93%E5%99%A8/</loc>
     <lastmod>2020-08-07T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/zh-cn/tags/%E6%B8%B2%E6%9F%93%E5%99%A8/</loc>
+    <loc>http://localhost:1313/zh-cn/tags/%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2020-08-07T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -1044,7 +1023,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/firebase/"
     />
     <xhtml:link
@@ -1065,7 +1044,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/docs/firebase-views/"
     />
     <xhtml:link
@@ -1098,7 +1077,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/html/"
     />
     <xhtml:link
@@ -1119,7 +1098,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/markdown/"
     />
     <xhtml:link
@@ -1140,7 +1119,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/samples/markdown/"
     />
     <xhtml:link
@@ -1161,7 +1140,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/gist/"
     />
     <xhtml:link
@@ -1182,7 +1161,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/twitter/"
     />
     <xhtml:link
@@ -1203,7 +1182,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/vimeo/"
     />
     <xhtml:link
@@ -1224,7 +1203,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/youtube/"
     />
     <xhtml:link
@@ -1245,7 +1224,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/samples/rich-content/"
     />
     <xhtml:link
@@ -1260,13 +1239,13 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/zh-cn/tags/%E6%96%87%E6%9C%AC/</loc>
+    <loc>http://localhost:1313/zh-cn/tags/%E6%8B%89%E4%B8%81%E8%AF%AD/</loc>
     <lastmod>2022-01-24T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/zh-cn/tags/%E6%8B%89%E4%B8%81%E8%AF%AD/</loc>
+    <loc>http://localhost:1313/zh-cn/tags/%E6%96%87%E6%9C%AC/</loc>
     <lastmod>2022-01-24T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -1278,7 +1257,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/katex/"
     />
     <xhtml:link
@@ -1305,7 +1284,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/samples/mathematical-notation/"
     />
     <xhtml:link
@@ -1332,7 +1311,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/samples/charts/"
     />
     <xhtml:link
@@ -1347,12 +1326,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/zh-cn/tags/%E8%A1%A8%E6%A0%BC/</loc>
-    <lastmod>2019-03-06T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/zh-cn/tags/%E6%B5%81%E7%A8%8B%E5%9B%BE/</loc>
     <lastmod>2019-03-06T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -1365,7 +1338,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/samples/diagrams-flowcharts/"
     />
     <xhtml:link
@@ -1380,13 +1353,19 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/zh-cn/tags/%E8%A1%A8%E6%A0%BC/</loc>
+    <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/zh-cn/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/emoji/"
     />
     <xhtml:link
@@ -1407,7 +1386,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/samples/emoji/"
     />
     <xhtml:link
@@ -1428,7 +1407,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/guides/template/"
     />
     <xhtml:link
@@ -1454,7 +1433,7 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="zh-tw"
+      hreflang="en"
       href="http://localhost:1313/tags/advanced/"
     />
     <xhtml:link
