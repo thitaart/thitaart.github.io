@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>簡要 on THITAart</title>
+    <link>http://localhost:65333/zh-tw/tags/%E7%B0%A1%E8%A6%81/</link>
+    <description>Recent content in 簡要 on THITAart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <copyright>Thita 希達 © 2025 </copyright>
+    <lastBuildDate>Tue, 04 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:65333/zh-tw/tags/%E7%B0%A1%E8%A6%81/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>架站-資料集中</title>
+      <link>http://localhost:65333/zh-tw/notes/web-resources/</link>
+      <pubDate>Tue, 04 Feb 2025 10:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:65333/zh-tw/notes/web-resources/</guid>
+      <description>&lt;p&gt;本篇簡要記錄本站架站資源，&lt;br&gt;
+以供日後查找回顧&lt;br&gt;
+&lt;br&gt;
+詳細的心得與說明&lt;br&gt;
+➡️&lt;a href=&#34;http://localhost:65333/zh-tw/notes/web-log/&#34;&gt;架站筆記&amp;ndash;網頁學習log&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

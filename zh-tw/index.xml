@@ -7,7 +7,65 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Thita 希達 © 2025 </copyright>
-    <lastBuildDate>Tue, 04 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-tw/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-tw/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo搭配Blowfish主題寫作常用語法</title>
+      <link>http://localhost:1313/zh-tw/notes/hugo-blowfish-write-md-html/</link>
+      <pubDate>Wed, 05 Feb 2025 10:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/notes/hugo-blowfish-write-md-html/</guid>
+      <description>&lt;p&gt;💎內文連結&lt;br&gt;
+簡要的心得與說明&lt;br&gt;
+➡️&lt;a href=&#34;http://localhost:1313/zh-tw/notes/web-resources/&#34;&gt;架站-資料集中&lt;/a&gt;&lt;br&gt;
+詳細的心得與說明&lt;br&gt;
+➡️&lt;a href=&#34;http://localhost:1313/zh-tw/notes/web-log/&#34;&gt;架站筆記&amp;ndash;網頁學習log&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>架站-資料集中</title>
+      <link>http://localhost:1313/zh-tw/notes/web-resources/</link>
+      <pubDate>Tue, 04 Feb 2025 10:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/notes/web-resources/</guid>
+      <description>&lt;p&gt;本篇簡要記錄本站架站資源，&lt;br&gt;
+以供日後查找回顧&lt;br&gt;
+&lt;br&gt;
+詳細的心得與說明&lt;br&gt;
+➡️&lt;a href=&#34;http://localhost:1313/zh-tw/notes/web-log/&#34;&gt;架站筆記&amp;ndash;網頁學習log&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>架站筆記--興趣使然的網頁學習log</title>
+      <link>http://localhost:1313/zh-tw/notes/web-log/</link>
+      <pubDate>Tue, 04 Feb 2025 10:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh-tw/notes/web-log/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;緣起 
+    &lt;div id=&#34;%E7%B7%A3%E8%B5%B7&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E7%B7%A3%E8%B5%B7&#34; aria-label=&#34;定位點&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;這篇詳細記錄  &lt;br&gt;
+架站資源，與心路歷程，&lt;br&gt;
+&lt;br&gt;
+簡要的心得與說明&lt;br&gt;
+➡️&lt;a href=&#34;http://localhost:1313/zh-tw/notes/web-resources/&#34;&gt;架站-資料集中&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+我目前的網站是用開源的Hugo&lt;/p&gt;</description>
+      
+    </item>
     
   </channel>
 </rss>

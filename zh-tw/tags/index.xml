@@ -2,19 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on THITAart</title>
-    <link>http://localhost:1313/zh-tw/tags/</link>
+    <link>http://localhost:65333/zh-tw/tags/</link>
     <description>Recent content in Tags on THITAart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Thita 希達 © 2025 </copyright>
-    <lastBuildDate>Tue, 04 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-tw/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:65333/zh-tw/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Blowfish</title>
+      <link>http://localhost:65333/zh-tw/tags/blowfish/</link>
+      <pubDate>Wed, 05 Feb 2025 10:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:65333/zh-tw/tags/blowfish/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:65333/zh-tw/tags/hugo/</link>
+      <pubDate>Wed, 05 Feb 2025 10:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:65333/zh-tw/tags/hugo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>筆記</title>
+      <link>http://localhost:65333/zh-tw/tags/%E7%AD%86%E8%A8%98/</link>
+      <pubDate>Wed, 05 Feb 2025 10:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:65333/zh-tw/tags/%E7%AD%86%E8%A8%98/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>語法</title>
+      <link>http://localhost:65333/zh-tw/tags/%E8%AA%9E%E6%B3%95/</link>
+      <pubDate>Wed, 05 Feb 2025 10:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:65333/zh-tw/tags/%E8%AA%9E%E6%B3%95/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>詳細</title>
+      <link>http://localhost:65333/zh-tw/tags/%E8%A9%B3%E7%B4%B0/</link>
+      <pubDate>Tue, 04 Feb 2025 10:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:65333/zh-tw/tags/%E8%A9%B3%E7%B4%B0/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>簡要</title>
+      <link>http://localhost:65333/zh-tw/tags/%E7%B0%A1%E8%A6%81/</link>
+      <pubDate>Tue, 04 Feb 2025 10:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:65333/zh-tw/tags/%E7%B0%A1%E8%A6%81/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>關於</title>
-      <link>http://localhost:1313/zh-tw/tags/%E9%97%9C%E6%96%BC/</link>
+      <link>http://localhost:65333/zh-tw/tags/%E9%97%9C%E6%96%BC/</link>
       <pubDate>Tue, 04 Feb 2025 10:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/zh-tw/tags/%E9%97%9C%E6%96%BC/</guid>
+      <guid>http://localhost:65333/zh-tw/tags/%E9%97%9C%E6%96%BC/</guid>
       <description></description>
       
     </item>

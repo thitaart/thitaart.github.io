@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>語法 on THITAart</title>
+    <link>http://localhost:65333/zh-tw/tags/%E8%AA%9E%E6%B3%95/</link>
+    <description>Recent content in 語法 on THITAart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <copyright>Thita 希達 © 2025 </copyright>
+    <lastBuildDate>Wed, 05 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:65333/zh-tw/tags/%E8%AA%9E%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo搭配Blowfish主題寫作常用語法</title>
+      <link>http://localhost:65333/zh-tw/notes/hugo-blowfish-write-md-html/</link>
+      <pubDate>Wed, 05 Feb 2025 10:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:65333/zh-tw/notes/hugo-blowfish-write-md-html/</guid>
+      <description>&lt;p&gt;💎內文連結&lt;br&gt;
+簡要的心得與說明&lt;br&gt;
+➡️&lt;a href=&#34;http://localhost:65333/zh-tw/notes/web-resources/&#34;&gt;架站-資料集中&lt;/a&gt;&lt;br&gt;
+詳細的心得與說明&lt;br&gt;
+➡️&lt;a href=&#34;http://localhost:65333/zh-tw/notes/web-log/&#34;&gt;架站筆記&amp;ndash;網頁學習log&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

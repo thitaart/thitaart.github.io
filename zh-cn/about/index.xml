@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thita希达 on THITAart</title>
-    <link>http://localhost:1313/zh-cn/about/</link>
+    <link>http://localhost:65333/zh-cn/about/</link>
     <description>Recent content in Thita希达 on THITAart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Thita 希達 © 2025 </copyright>
-    <lastBuildDate>Tue, 04 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:65333/zh-cn/about/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

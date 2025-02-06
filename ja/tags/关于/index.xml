@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>关于 on THITAart</title>
-    <link>http://localhost:1313/ja/tags/%E5%85%B3%E4%BA%8E/</link>
+    <link>http://localhost:65333/ja/tags/%E5%85%B3%E4%BA%8E/</link>
     <description>Recent content in 关于 on THITAart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Thita シタ © 2025 </copyright>
-    <lastBuildDate>Tue, 04 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/ja/tags/%E5%85%B3%E4%BA%8E/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:65333/ja/tags/%E5%85%B3%E4%BA%8E/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Thitaシタ</title>
-      <link>http://localhost:1313/ja/about/</link>
+      <link>http://localhost:65333/ja/about/</link>
       <pubDate>Tue, 04 Feb 2025 10:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/ja/about/</guid>
+      <guid>http://localhost:65333/ja/about/</guid>
       <description>&lt;p&gt;こんにちは!私は Thitaシタです。&lt;br&gt;
 美術、漫画、3D、ゲームが好きで、デジタルクリエイターです。&lt;br&gt;
 このウェブサイト、THITAartは、経験、リソース、作品をまとめた場所です。もし、このサイトがあなたの役に立つなら:&lt;br&gt;&lt;/p&gt;</description>
